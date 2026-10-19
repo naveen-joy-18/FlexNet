@@ -1,0 +1,782 @@
+{
+  "A/own_test": {
+    "threshold": 0.3436,
+    "accuracy": 0.8421592073795695,
+    "sensitivity": 0.8186314921681781,
+    "specificity": 0.8483085541909071,
+    "precision": 0.5851502651738362,
+    "negative_predictive_value": 0.9470772191484244,
+    "f1": 0.6824742268041237,
+    "mcc": 0.5957884046097807,
+    "kappa": 0.5812815668538802,
+    "balanced_accuracy": 0.8334700231795427,
+    "tp": 993,
+    "tn": 3937,
+    "fp": 704,
+    "fn": 220,
+    "auc": 0.9111211356252819,
+    "auprc": 0.7299660566473614,
+    "brier": 0.09910663217306137,
+    "prevalence": 0.2072087461564742,
+    "median_rna_auroc": 0.9424148872309407,
+    "iqr_rna_auroc": [
+      0.8604643246187365,
+      0.9761904761904762
+    ],
+    "mean_rna_auroc": 0.8968100052647658,
+    "median_rna_sensitivity": 0.8888888888888888,
+    "median_rna_specificity": 0.875,
+    "median_rna_f1": 0.7368421052631579,
+    "median_rna_accuracy": 0.8787878787878788,
+    "median_rna_mcc": 0.6596153846153846,
+    "n_rnas_auroc": 160,
+    "median_rna_spearman": 0.7629556433904261,
+    "mean_rna_spearman": 0.7255341906818632,
+    "frac_rna_rho_gt_half": 0.9074074074074074,
+    "n_rnas": 162,
+    "aux_region_auc": 0.8332847502625883,
+    "aux_region_auprc": 0.554766676564277,
+    "aux_reg_corr": 0.7831513158118428,
+    "corr_raw": {
+      "spearman": 0.7894876386538519,
+      "pearson": 0.7664806747643576,
+      "n": 5854
+    },
+    "corr_rank": {
+      "spearman": 0.7774397738047627,
+      "pearson": 0.7831513158118428,
+      "n": 5854
+    },
+    "corr_region": {
+      "spearman": 0.6321707250345915,
+      "pearson": 0.5456646314614597,
+      "n": 5854
+    },
+    "auc_ci": [
+      0.8949393414387147,
+      0.9249021914875369
+    ],
+    "auprc_ci": [
+      0.6902241015257392,
+      0.7678244973460726
+    ],
+    "regions": {
+      "median_region_jaccard": 0.5833333333333334,
+      "mean_region_jaccard": 0.5513446523060876,
+      "median_region_f1": 0.7368421052631579,
+      "mean_region_f1": 0.6806443692748898,
+      "median_called_nt_per_rna": 10.0,
+      "median_observed_nt_per_rna": 7.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.7307613168724281,
+      "median_region_precision": 0.6363636363636364,
+      "n_rnas": 162
+    },
+    "n_measured": 5854,
+    "name": "A/own_test"
+  },
+  "A/own_val": {
+    "threshold": 0.3436,
+    "accuracy": 0.8195528743789922,
+    "sensitivity": 0.7799511002444988,
+    "specificity": 0.8305738262644591,
+    "precision": 0.5616197183098591,
+    "negative_predictive_value": 0.9313326551373347,
+    "f1": 0.6530194472876151,
+    "mcc": 0.5485979507537959,
+    "kappa": 0.5354154407294833,
+    "balanced_accuracy": 0.8052624632544789,
+    "tp": 957,
+    "tn": 3662,
+    "fp": 747,
+    "fn": 270,
+    "auc": 0.8899871955618676,
+    "auprc": 0.6929485970839245,
+    "brier": 0.10863059014081955,
+    "prevalence": 0.21770759403832504,
+    "median_rna_auroc": 0.9147727272727273,
+    "iqr_rna_auroc": [
+      0.8251984126984127,
+      0.9747208931419458
+    ],
+    "mean_rna_auroc": 0.8687760845144012,
+    "median_rna_sensitivity": 0.8333333333333334,
+    "median_rna_specificity": 0.85,
+    "median_rna_f1": 0.6666666666666667,
+    "median_rna_accuracy": 0.8387096774193549,
+    "median_rna_mcc": 0.5722897876982825,
+    "n_rnas_auroc": 155,
+    "median_rna_spearman": 0.7637364663733832,
+    "mean_rna_spearman": 0.6804880331624844,
+    "frac_rna_rho_gt_half": 0.8205128205128205,
+    "n_rnas": 156,
+    "aux_region_auc": 0.8126686855792302,
+    "aux_region_auprc": 0.5540877393988025,
+    "aux_reg_corr": 0.7346468348454134,
+    "corr_raw": {
+      "spearman": 0.7484704216100297,
+      "pearson": 0.7267019576572299,
+      "n": 5636
+    },
+    "corr_rank": {
+      "spearman": 0.7295529285092254,
+      "pearson": 0.7346468348454134,
+      "n": 5636
+    },
+    "corr_region": {
+      "spearman": 0.5981699305297788,
+      "pearson": 0.5320994817672385,
+      "n": 5636
+    },
+    "auc_ci": [
+      0.8696520005792808,
+      0.9087161736568496
+    ],
+    "auprc_ci": [
+      0.6448896570076629,
+      0.7364066689907502
+    ],
+    "regions": {
+      "median_region_jaccard": 0.5,
+      "mean_region_jaccard": 0.5187352232520072,
+      "median_region_f1": 0.6666666666666666,
+      "mean_region_f1": 0.6509675293085412,
+      "median_called_nt_per_rna": 10.0,
+      "median_observed_nt_per_rna": 7.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.7567307692307693,
+      "median_region_precision": 0.5916666666666667,
+      "n_rnas": 156
+    },
+    "n_measured": 5636,
+    "name": "A/own_val"
+  },
+  "A/other_val": {
+    "threshold": 0.3436,
+    "accuracy": 0.7750413223140495,
+    "sensitivity": 0.6400709219858156,
+    "specificity": 0.7889172438935472,
+    "precision": 0.23765635286372613,
+    "negative_predictive_value": 0.9551975281394836,
+    "f1": 0.3466154584733558,
+    "mcc": 0.2876317657948854,
+    "kappa": 0.24379986698158596,
+    "balanced_accuracy": 0.7144940829396814,
+    "tp": 361,
+    "tn": 4328,
+    "fp": 1158,
+    "fn": 203,
+    "auc": 0.808807008426349,
+    "auprc": 0.3433849198473905,
+    "brier": 0.10062426328659058,
+    "prevalence": 0.09322314049586777,
+    "median_rna_auroc": 0.8502673796791445,
+    "iqr_rna_auroc": [
+      0.7578027465667916,
+      0.8914728682170543
+    ],
+    "mean_rna_auroc": 0.8104078917870048,
+    "median_rna_sensitivity": 0.6666666666666666,
+    "median_rna_specificity": 0.7946491849751949,
+    "median_rna_f1": 0.3529411764705882,
+    "median_rna_accuracy": 0.7846153846153846,
+    "median_rna_mcc": 0.3175922950743646,
+    "n_rnas_auroc": 69,
+    "median_rna_spearman": 0.4477750887332286,
+    "mean_rna_spearman": 0.42191130294774537,
+    "frac_rna_rho_gt_half": 0.34285714285714286,
+    "n_rnas": 70,
+    "aux_region_auc": 0.8102108073936752,
+    "aux_region_auprc": 0.28494053137882497,
+    "aux_reg_corr": 0.44983350559645013,
+    "corr_raw": {
+      "spearman": 0.44349490410233744,
+      "pearson": 0.4470094880739194,
+      "n": 6050
+    },
+    "corr_rank": {
+      "spearman": 0.4486491136755394,
+      "pearson": 0.44983350559645013,
+      "n": 6050
+    },
+    "corr_region": {
+      "spearman": 0.4478783347960124,
+      "pearson": 0.4158016377431165,
+      "n": 6050
+    },
+    "auc_ci": [
+      0.7832817711993196,
+      0.8327195040192851
+    ],
+    "auprc_ci": [
+      0.29571534504009267,
+      0.39601423920356715
+    ],
+    "regions": {
+      "median_region_jaccard": 0.21428571428571427,
+      "mean_region_jaccard": 0.21547352588190907,
+      "median_region_f1": 0.35294117647058826,
+      "mean_region_f1": 0.3425729554729437,
+      "median_called_nt_per_rna": 21.0,
+      "median_observed_nt_per_rna": 8.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.7547619047619047,
+      "median_region_precision": 0.2376470588235294,
+      "n_rnas": 70
+    },
+    "n_measured": 6050,
+    "name": "A/other_val"
+  },
+  "A/other_test": {
+    "threshold": 0.3436,
+    "accuracy": 0.7821332436069987,
+    "sensitivity": 0.6156462585034014,
+    "specificity": 0.8004107542942495,
+    "precision": 0.2529699510831586,
+    "negative_predictive_value": 0.9499224462663417,
+    "f1": 0.3585933630510154,
+    "mcc": 0.2905422598531702,
+    "kappa": 0.2539813608733409,
+    "balanced_accuracy": 0.7080285063988254,
+    "tp": 362,
+    "tn": 4287,
+    "fp": 1069,
+    "fn": 226,
+    "auc": 0.7894658797051308,
+    "auprc": 0.3581482548724689,
+    "brier": 0.10283288359642029,
+    "prevalence": 0.09892328398384927,
+    "median_rna_auroc": 0.8130651378148408,
+    "iqr_rna_auroc": [
+      0.7490684677540347,
+      0.8901870479204339
+    ],
+    "mean_rna_auroc": 0.798982886407335,
+    "median_rna_sensitivity": 0.625,
+    "median_rna_specificity": 0.8104686965446459,
+    "median_rna_f1": 0.35714285714285715,
+    "median_rna_accuracy": 0.7916134525329928,
+    "median_rna_mcc": 0.3021337713948586,
+    "n_rnas_auroc": 68,
+    "median_rna_spearman": 0.40072243830968624,
+    "mean_rna_spearman": 0.39419093621034773,
+    "frac_rna_rho_gt_half": 0.23529411764705882,
+    "n_rnas": 68,
+    "aux_region_auc": 0.7945412481646879,
+    "aux_region_auprc": 0.30776392461558605,
+    "aux_reg_corr": 0.4119840501115664,
+    "corr_raw": {
+      "spearman": 0.40503502694405646,
+      "pearson": 0.43076999547601014,
+      "n": 5944
+    },
+    "corr_rank": {
+      "spearman": 0.407882309218148,
+      "pearson": 0.4119840501115664,
+      "n": 5944
+    },
+    "corr_region": {
+      "spearman": 0.4108884277366575,
+      "pearson": 0.4178311992545249,
+      "n": 5944
+    },
+    "auc_ci": [
+      0.7623975174697329,
+      0.8177688706113356
+    ],
+    "auprc_ci": [
+      0.3077021649832673,
+      0.42380726229174076
+    ],
+    "regions": {
+      "median_region_jaccard": 0.21739130434782608,
+      "mean_region_jaccard": 0.22490253102399999,
+      "median_region_f1": 0.3571428571428571,
+      "mean_region_f1": 0.3561581784118668,
+      "median_called_nt_per_rna": 20.0,
+      "median_observed_nt_per_rna": 8.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.7517156862745098,
+      "median_region_precision": 0.25,
+      "n_rnas": 68
+    },
+    "n_measured": 5944,
+    "name": "A/other_test"
+  },
+  "A/other_all": {
+    "threshold": 0.3436,
+    "accuracy": 0.786559879864848,
+    "sensitivity": 0.6424508790072389,
+    "specificity": 0.8020062626430571,
+    "precision": 0.2580477673935618,
+    "negative_predictive_value": 0.95439406430338,
+    "f1": 0.36820269669580674,
+    "mcc": 0.30728047331871905,
+    "kappa": 0.26694210390109896,
+    "balanced_accuracy": 0.7222285708251479,
+    "tp": 2485,
+    "tn": 28942,
+    "fp": 7145,
+    "fn": 1383,
+    "auc": 0.8092644745782548,
+    "auprc": 0.3613418241931455,
+    "brier": 0.09994754195213318,
+    "prevalence": 0.09680891002377674,
+    "median_rna_auroc": 0.8420348058902276,
+    "iqr_rna_auroc": [
+      0.7541633624107851,
+      0.893735130848533
+    ],
+    "mean_rna_auroc": 0.8139778106516027,
+    "median_rna_sensitivity": 0.6666666666666666,
+    "median_rna_specificity": 0.8092562867843767,
+    "median_rna_f1": 0.37037037037037035,
+    "median_rna_accuracy": 0.7951631701631701,
+    "median_rna_mcc": 0.32000220009418023,
+    "n_rnas_auroc": 461,
+    "median_rna_spearman": 0.44558553026479497,
+    "mean_rna_spearman": 0.4184163414602589,
+    "frac_rna_rho_gt_half": 0.3203463203463203,
+    "n_rnas": 462,
+    "aux_region_auc": 0.8095435886312777,
+    "aux_region_auprc": 0.30485429106771733,
+    "aux_reg_corr": 0.4432092613773796,
+    "corr_raw": {
+      "spearman": 0.43423831583376277,
+      "pearson": 0.44751841601462783,
+      "n": 39955
+    },
+    "corr_rank": {
+      "spearman": 0.4378721574497967,
+      "pearson": 0.4432092613773796,
+      "n": 39955
+    },
+    "corr_region": {
+      "spearman": 0.4293215005551298,
+      "pearson": 0.413786440562519,
+      "n": 39955
+    },
+    "auc_ci": [
+      0.7992508175728492,
+      0.8198134819862636
+    ],
+    "auprc_ci": [
+      0.34485824611237886,
+      0.38081765419698604
+    ],
+    "regions": {
+      "median_region_jaccard": 0.22727272727272727,
+      "mean_region_jaccard": 0.23371183260715672,
+      "median_region_f1": 0.37037037037037035,
+      "mean_region_f1": 0.36689312629169557,
+      "median_called_nt_per_rna": 20.0,
+      "median_observed_nt_per_rna": 8.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.767929292929293,
+      "median_region_precision": 0.2608695652173913,
+      "n_rnas": 462
+    },
+    "n_measured": 39955,
+    "name": "A/other_all"
+  },
+  "A/seed_aucs": [
+    0.909193622277372,
+    0.9122652802639224,
+    0.9111211356252819
+  ],
+  "A/chosen_seed": 2,
+  "A/auc_spread": [
+    0.909193622277372,
+    0.9122652802639224
+  ],
+  "B/own_test": {
+    "threshold": 0.27505,
+    "accuracy": 0.8521197846567967,
+    "sensitivity": 0.7227891156462585,
+    "specificity": 0.8663181478715459,
+    "precision": 0.37248028045574055,
+    "negative_predictive_value": 0.9660628773683114,
+    "f1": 0.4916136495083864,
+    "mcc": 0.4465850795631259,
+    "kappa": 0.41526967016438066,
+    "balanced_accuracy": 0.7945536317589021,
+    "tp": 425,
+    "tn": 4640,
+    "fp": 716,
+    "fn": 163,
+    "auc": 0.8713700192549012,
+    "auprc": 0.5066843073551559,
+    "brier": 0.07089242339134216,
+    "prevalence": 0.09892328398384927,
+    "median_rna_auroc": 0.9120509866477609,
+    "iqr_rna_auroc": [
+      0.8501840609661587,
+      0.9639018402376631
+    ],
+    "mean_rna_auroc": 0.8780468403762196,
+    "median_rna_sensitivity": 0.7638888888888888,
+    "median_rna_specificity": 0.875,
+    "median_rna_f1": 0.5,
+    "median_rna_accuracy": 0.8682587492828457,
+    "median_rna_mcc": 0.4653326616661753,
+    "n_rnas_auroc": 68,
+    "median_rna_spearman": 0.5358951950798153,
+    "mean_rna_spearman": 0.5007214388079152,
+    "frac_rna_rho_gt_half": 0.6029411764705882,
+    "n_rnas": 68,
+    "aux_region_auc": 0.8296185725970747,
+    "aux_region_auprc": 0.3386624444312348,
+    "aux_reg_corr": 0.5518420290219992,
+    "corr_raw": {
+      "spearman": 0.5080647976017081,
+      "pearson": 0.5447105053915123,
+      "n": 5944
+    },
+    "corr_rank": {
+      "spearman": 0.515526303945109,
+      "pearson": 0.5518420290219992,
+      "n": 5944
+    },
+    "corr_region": {
+      "spearman": 0.47209517535820833,
+      "pearson": 0.4627033526780613,
+      "n": 5944
+    },
+    "auc_ci": [
+      0.8421934247019831,
+      0.8994002837271565
+    ],
+    "auprc_ci": [
+      0.4517689717663315,
+      0.571441383563008
+    ],
+    "regions": {
+      "median_region_jaccard": 0.3333333333333333,
+      "mean_region_jaccard": 0.34576823838006826,
+      "median_region_f1": 0.5,
+      "mean_region_f1": 0.4974116452461196,
+      "median_called_nt_per_rna": 16.0,
+      "median_observed_nt_per_rna": 8.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.7745098039215685,
+      "median_region_precision": 0.35714285714285715,
+      "n_rnas": 68
+    },
+    "n_measured": 5944,
+    "name": "B/own_test"
+  },
+  "B/own_val": {
+    "threshold": 0.27505,
+    "accuracy": 0.8523966942148761,
+    "sensitivity": 0.7375886524822695,
+    "specificity": 0.8641997812613926,
+    "precision": 0.35831180017226527,
+    "negative_predictive_value": 0.9697279607281653,
+    "f1": 0.4823188405797102,
+    "mcc": 0.4443090522574524,
+    "kappa": 0.40803528833496483,
+    "balanced_accuracy": 0.800894216871831,
+    "tp": 416,
+    "tn": 4741,
+    "fp": 745,
+    "fn": 148,
+    "auc": 0.8862588329286928,
+    "auprc": 0.5009963775328061,
+    "brier": 0.06826942414045334,
+    "prevalence": 0.09322314049586777,
+    "median_rna_auroc": 0.9181818181818182,
+    "iqr_rna_auroc": [
+      0.841095890410959,
+      0.9598930481283423
+    ],
+    "mean_rna_auroc": 0.8884011130011904,
+    "median_rna_sensitivity": 0.7638888888888888,
+    "median_rna_specificity": 0.8700076804915515,
+    "median_rna_f1": 0.5150732127476314,
+    "median_rna_accuracy": 0.865553121577218,
+    "median_rna_mcc": 0.4638462636015891,
+    "n_rnas_auroc": 69,
+    "median_rna_spearman": 0.5355259230452024,
+    "mean_rna_spearman": 0.5261264804760972,
+    "frac_rna_rho_gt_half": 0.7285714285714285,
+    "n_rnas": 70,
+    "aux_region_auc": 0.8371821050617563,
+    "aux_region_auprc": 0.3178238690104705,
+    "aux_reg_corr": 0.5583991846539792,
+    "corr_raw": {
+      "spearman": 0.5339734009883444,
+      "pearson": 0.5514733009856818,
+      "n": 6050
+    },
+    "corr_rank": {
+      "spearman": 0.5361022507578428,
+      "pearson": 0.5583991846539792,
+      "n": 6050
+    },
+    "corr_region": {
+      "spearman": 0.48615490533578654,
+      "pearson": 0.45244481787444063,
+      "n": 6050
+    },
+    "auc_ci": [
+      0.864452671260119,
+      0.9074395102385859
+    ],
+    "auprc_ci": [
+      0.4414842933138738,
+      0.5604312300083236
+    ],
+    "regions": {
+      "median_region_jaccard": 0.346875,
+      "mean_region_jaccard": 0.33912207990266746,
+      "median_region_f1": 0.5150732127476314,
+      "mean_region_f1": 0.4860796262043472,
+      "median_called_nt_per_rna": 16.0,
+      "median_observed_nt_per_rna": 8.0,
+      "median_observed_region_recall": 1.0,
+      "mean_observed_region_recall": 0.8023809523809523,
+      "median_region_precision": 0.3944444444444445,
+      "n_rnas": 70
+    },
+    "n_measured": 6050,
+    "name": "B/own_val"
+  },
+  "B/other_val": {
+    "threshold": 0.27505,
+    "accuracy": 0.8044712562100781,
+    "sensitivity": 0.4889975550122249,
+    "specificity": 0.8922658199138127,
+    "precision": 0.5581395348837209,
+    "negative_predictive_value": 0.8625301468976102,
+    "f1": 0.5212858384013901,
+    "mcc": 0.4004821376853312,
+    "kappa": 0.39910422017290603,
+    "balanced_accuracy": 0.6906316874630188,
+    "tp": 600,
+    "tn": 3934,
+    "fp": 475,
+    "fn": 627,
+    "auc": 0.7993721814108099,
+    "auprc": 0.538229817268747,
+    "brier": 0.13913565874099731,
+    "prevalence": 0.21770759403832504,
+    "median_rna_auroc": 0.8128654970760234,
+    "iqr_rna_auroc": [
+      0.7166666666666667,
+      0.9076276664511959
+    ],
+    "mean_rna_auroc": 0.7941822882777869,
+    "median_rna_sensitivity": 0.5,
+    "median_rna_specificity": 0.9148550724637681,
+    "median_rna_f1": 0.5298245614035088,
+    "median_rna_accuracy": 0.8181818181818182,
+    "median_rna_mcc": 0.42180058946278276,
+    "n_rnas_auroc": 155,
+    "median_rna_spearman": 0.5078035690911471,
+    "mean_rna_spearman": 0.4843949539127426,
+    "frac_rna_rho_gt_half": 0.5192307692307693,
+    "n_rnas": 156,
+    "aux_region_auc": 0.7814597392197887,
+    "aux_region_auprc": 0.48211689240957334,
+    "aux_reg_corr": 0.5824994763982103,
+    "corr_raw": {
+      "spearman": 0.5287673662776594,
+      "pearson": 0.5228813807051741,
+      "n": 5636
+    },
+    "corr_rank": {
+      "spearman": 0.5686522627990505,
+      "pearson": 0.5824994763982103,
+      "n": 5636
+    },
+    "corr_region": {
+      "spearman": 0.4994763098203809,
+      "pearson": 0.44891543064304035,
+      "n": 5636
+    },
+    "auc_ci": [
+      0.7771982434870376,
+      0.8197373177642552
+    ],
+    "auprc_ci": [
+      0.4998522185015156,
+      0.575646837635689
+    ],
+    "regions": {
+      "median_region_jaccard": 0.36038961038961037,
+      "mean_region_jaccard": 0.36937965835816344,
+      "median_region_f1": 0.5298245614035088,
+      "mean_region_f1": 0.5086261517451719,
+      "median_called_nt_per_rna": 6.0,
+      "median_observed_nt_per_rna": 7.0,
+      "median_observed_region_recall": 0.75,
+      "mean_observed_region_recall": 0.6223290598290598,
+      "median_region_precision": 0.5894736842105264,
+      "n_rnas": 156
+    },
+    "n_measured": 5636,
+    "name": "B/other_val"
+  },
+  "B/other_test": {
+    "threshold": 0.27505,
+    "accuracy": 0.81465664502904,
+    "sensitivity": 0.494641384995878,
+    "specificity": 0.8982977806507219,
+    "precision": 0.5597014925373134,
+    "negative_predictive_value": 0.8718109577582601,
+    "f1": 0.5251641137855579,
+    "mcc": 0.4117743826238618,
+    "kappa": 0.41056456748404135,
+    "balanced_accuracy": 0.6964695828233,
+    "tp": 600,
+    "tn": 4169,
+    "fp": 472,
+    "fn": 613,
+    "auc": 0.8036996141598247,
+    "auprc": 0.534068536348868,
+    "brier": 0.13245946168899536,
+    "prevalence": 0.2072087461564742,
+    "median_rna_auroc": 0.8400429414922168,
+    "iqr_rna_auroc": [
+      0.7208110516934046,
+      0.9119894041769041
+    ],
+    "mean_rna_auroc": 0.8021764904138257,
+    "median_rna_sensitivity": 0.5,
+    "median_rna_specificity": 0.9090909090909091,
+    "median_rna_f1": 0.5,
+    "median_rna_accuracy": 0.8235294117647058,
+    "median_rna_mcc": 0.425525268960284,
+    "n_rnas_auroc": 160,
+    "median_rna_spearman": 0.5411163845946454,
+    "mean_rna_spearman": 0.5106486081966287,
+    "frac_rna_rho_gt_half": 0.5864197530864198,
+    "n_rnas": 162,
+    "aux_region_auc": 0.7942848012437266,
+    "aux_region_auprc": 0.4656979171785114,
+    "aux_reg_corr": 0.6082699477975796,
+    "corr_raw": {
+      "spearman": 0.537676827841308,
+      "pearson": 0.5329209768389647,
+      "n": 5854
+    },
+    "corr_rank": {
+      "spearman": 0.5907359152702363,
+      "pearson": 0.6082699477975796,
+      "n": 5854
+    },
+    "corr_region": {
+      "spearman": 0.5268354044962676,
+      "pearson": 0.45751120065906115,
+      "n": 5854
+    },
+    "auc_ci": [
+      0.7835127951084928,
+      0.8221787249636584
+    ],
+    "auprc_ci": [
+      0.4920721729368147,
+      0.5744034836971253
+    ],
+    "regions": {
+      "median_region_jaccard": 0.3333333333333333,
+      "mean_region_jaccard": 0.36384042920144555,
+      "median_region_f1": 0.5,
+      "mean_region_f1": 0.5000239477316465,
+      "median_called_nt_per_rna": 6.0,
+      "median_observed_nt_per_rna": 7.0,
+      "median_observed_region_recall": 0.5833333333333333,
+      "mean_observed_region_recall": 0.5512345679012346,
+      "median_region_precision": 0.5419580419580419,
+      "n_rnas": 162
+    },
+    "n_measured": 5854,
+    "name": "B/other_test"
+  },
+  "B/other_all": {
+    "threshold": 0.27505,
+    "accuracy": 0.8117432792940693,
+    "sensitivity": 0.49522196685617514,
+    "specificity": 0.8969300387407625,
+    "precision": 0.5639118457300275,
+    "negative_predictive_value": 0.8684592106922204,
+    "f1": 0.5273394731757584,
+    "mcc": 0.4117707820354077,
+    "kappa": 0.41042117682303403,
+    "balanced_accuracy": 0.6960760027984688,
+    "tp": 4094,
+    "tn": 27551,
+    "fp": 3166,
+    "fn": 4173,
+    "auc": 0.7964260579157846,
+    "auprc": 0.5366627123695857,
+    "brier": 0.13556014001369476,
+    "prevalence": 0.21206135850605376,
+    "median_rna_auroc": 0.8221153846153846,
+    "iqr_rna_auroc": [
+      0.72,
+      0.9090909090909091
+    ],
+    "mean_rna_auroc": 0.7974052148606238,
+    "median_rna_sensitivity": 0.5,
+    "median_rna_specificity": 0.90625,
+    "median_rna_f1": 0.5,
+    "median_rna_accuracy": 0.8181818181818182,
+    "median_rna_mcc": 0.404347412707806,
+    "n_rnas_auroc": 1053,
+    "median_rna_spearman": 0.5362304921968788,
+    "mean_rna_spearman": 0.5056353616874147,
+    "frac_rna_rho_gt_half": 0.5739868049010367,
+    "n_rnas": 1061,
+    "aux_region_auc": 0.7828223293218295,
+    "aux_region_auprc": 0.4766914770058478,
+    "aux_reg_corr": 0.5926259064340134,
+    "corr_raw": {
+      "spearman": 0.5318864470549948,
+      "pearson": 0.5258835109647051,
+      "n": 38984
+    },
+    "corr_rank": {
+      "spearman": 0.5801001125229198,
+      "pearson": 0.5926259064340134,
+      "n": 38984
+    },
+    "corr_region": {
+      "spearman": 0.5075125802069392,
+      "pearson": 0.4542726014752808,
+      "n": 38984
+    },
+    "auc_ci": [
+      0.788717422949736,
+      0.8040182632473862
+    ],
+    "auprc_ci": [
+      0.5226145055188556,
+      0.5531129750793625
+    ],
+    "regions": {
+      "median_region_jaccard": 0.3333333333333333,
+      "mean_region_jaccard": 0.3620668774080981,
+      "median_region_f1": 0.5,
+      "mean_region_f1": 0.5007644631221788,
+      "median_called_nt_per_rna": 6.0,
+      "median_observed_nt_per_rna": 7.0,
+      "median_observed_region_recall": 0.6666666666666666,
+      "mean_observed_region_recall": 0.5624977538185085,
+      "median_region_precision": 0.5555555555555556,
+      "n_rnas": 1060
+    },
+    "n_measured": 38984,
+    "name": "B/other_all"
+  },
+  "B/seed_aucs": [
+    0.8713700192549012,
+    0.874678026550426,
+    0.8681359959966062
+  ],
+  "B/chosen_seed": 0,
+  "B/auc_spread": [
+    0.8681359959966062,
+    0.874678026550426
+  ]
+}

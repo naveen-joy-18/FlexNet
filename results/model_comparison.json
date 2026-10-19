@@ -1,0 +1,3530 @@
+{
+  "A": {
+    "flexnet": {
+      "own_test": {
+        "accuracy": 0.8421592073795695,
+        "sensitivity": 0.8186314921681781,
+        "specificity": 0.8483085541909071,
+        "precision": 0.5851502651738362,
+        "negative_predictive_value": 0.9470772191484244,
+        "f1": 0.6824742268041237,
+        "mcc": 0.5957884046097807,
+        "kappa": 0.5812815668538802,
+        "balanced_accuracy": 0.8334700231795427,
+        "brier": 0.09910663217306137,
+        "auc": 0.9111211356252819,
+        "auprc": 0.7299660566473614,
+        "threshold": 0.3436,
+        "tp": 993,
+        "tn": 3937,
+        "fp": 704,
+        "fn": 220,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8222157460602129,
+            0.859386652305665
+          ],
+          "sensitivity": [
+            0.7863287948306972,
+            0.8474284569024044
+          ],
+          "specificity": [
+            0.8272515364394905,
+            0.8662724753803988
+          ],
+          "f1": [
+            0.6500906693514711,
+            0.7126737538531265
+          ],
+          "mcc": [
+            0.5548728277930306,
+            0.6345410827169838
+          ],
+          "auc": [
+            0.8949393414387147,
+            0.9249021914875369
+          ],
+          "auprc": [
+            0.6902241015257392,
+            0.7678244973460726
+          ]
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7821332436069987,
+        "sensitivity": 0.6156462585034014,
+        "specificity": 0.8004107542942495,
+        "precision": 0.2529699510831586,
+        "negative_predictive_value": 0.9499224462663417,
+        "f1": 0.3585933630510154,
+        "mcc": 0.2905422598531702,
+        "kappa": 0.2539813608733409,
+        "balanced_accuracy": 0.7080285063988254,
+        "brier": 0.10283288359642029,
+        "auc": 0.7894658797051308,
+        "auprc": 0.3581482548724689,
+        "threshold": 0.3436,
+        "tp": 362,
+        "tn": 4287,
+        "fp": 1069,
+        "fn": 226,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7647614100054158,
+            0.7974752986018138
+          ],
+          "sensitivity": [
+            0.5617834212336621,
+            0.6688750069564249
+          ],
+          "specificity": [
+            0.7827600622098699,
+            0.815991800377493
+          ],
+          "f1": [
+            0.32915866890860995,
+            0.39159744245959205
+          ],
+          "mcc": [
+            0.2522033444050843,
+            0.3321511732491593
+          ],
+          "auc": [
+            0.7623975174697329,
+            0.8177688706113356
+          ],
+          "auprc": [
+            0.3077021649832673,
+            0.42380726229174076
+          ]
+        }
+      },
+      "threshold": 0.3436,
+      "threshold_f1": null,
+      "threshold_youden": null,
+      "threshold_source": "validation-calibrated (median of F1 and Youden optima), applied unchanged"
+    },
+    "feature:paired_cent": {
+      "own_test": {
+        "accuracy": 0.1990092244619064,
+        "sensitivity": 0.1549876339653751,
+        "specificity": 0.21051497522085758,
+        "precision": 0.04880581516095535,
+        "negative_predictive_value": 0.48801198801198803,
+        "f1": 0.07423494570582428,
+        "mcc": -0.5421142825624097,
+        "kappa": -0.3518173694118627,
+        "balanced_accuracy": 0.18275130459311634,
+        "brier": 0.8009907603263855,
+        "auc": 0.18275130459311634,
+        "auprc": 0.18265825066829816,
+        "threshold": 0.4988,
+        "tp": 188,
+        "tn": 977,
+        "fp": 3664,
+        "fn": 1025,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.17691680642405092,
+            0.22020403574264255
+          ],
+          "sensitivity": [
+            0.12539434983988235,
+            0.187452726132247
+          ],
+          "specificity": [
+            0.18673156779560815,
+            0.23457459287654914
+          ],
+          "f1": [
+            0.058351751052879645,
+            0.09092825823613462
+          ],
+          "mcc": [
+            -0.5844137082585716,
+            -0.5009959732737802
+          ],
+          "auc": [
+            0.16030253069711833,
+            0.20496789567872578
+          ],
+          "auprc": [
+            0.1703889625837049,
+            0.19584268817809772
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.199,
+            "sensitivity": 0.155,
+            "specificity": 0.2105,
+            "precision": 0.0488,
+            "negative_predictive_value": 0.488,
+            "f1": 0.0742,
+            "mcc": -0.5421,
+            "kappa": -0.3518,
+            "balanced_accuracy": 0.1828,
+            "brier": 0.801,
+            "auc": 0.1828,
+            "auprc": 0.1827,
+            "threshold": 0.4988,
+            "tp": 188.0,
+            "tn": 977.0,
+            "fp": 3664.0,
+            "fn": 1025.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.199,
+            "sensitivity": 0.155,
+            "specificity": 0.2105,
+            "precision": 0.0488,
+            "negative_predictive_value": 0.488,
+            "f1": 0.0742,
+            "mcc": -0.5421,
+            "kappa": -0.3518,
+            "balanced_accuracy": 0.1828,
+            "brier": 0.801,
+            "auc": 0.1828,
+            "auprc": 0.1827,
+            "threshold": 0.4988,
+            "tp": 188.0,
+            "tn": 977.0,
+            "fp": 3664.0,
+            "fn": 1025.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.182751,
+          "diff": 0.72837,
+          "var": 0.000189,
+          "z": 52.994536,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 771,
+          "c": 4536,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 90.66
+        }
+      },
+      "other_test": {
+        "accuracy": 0.2711978465679677,
+        "sensitivity": 0.3707482993197279,
+        "specificity": 0.260268857356236,
+        "precision": 0.05215311004784689,
+        "negative_predictive_value": 0.7902494331065759,
+        "f1": 0.09144295302013423,
+        "mcc": -0.2411446821464619,
+        "kappa": -0.09921302222143313,
+        "balanced_accuracy": 0.31550857833798196,
+        "brier": 0.7288021445274353,
+        "auc": 0.31550857833798196,
+        "auprc": 0.08158332153818851,
+        "threshold": 0.4988,
+        "tp": 218,
+        "tn": 1394,
+        "fp": 3962,
+        "fn": 370,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.25058475506883005,
+            0.2927706173400882
+          ],
+          "sensitivity": [
+            0.31787443801070236,
+            0.4248022034900916
+          ],
+          "specificity": [
+            0.23741801701305987,
+            0.28414343662560704
+          ],
+          "f1": [
+            0.07852057278420804,
+            0.103688469060877
+          ],
+          "mcc": [
+            -0.2795202929717526,
+            -0.20569267572784056
+          ],
+          "auc": [
+            0.2870309691311113,
+            0.34227272504811895
+          ],
+          "auprc": [
+            0.07632414249054574,
+            0.08633948025661915
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.2712,
+            "sensitivity": 0.3707,
+            "specificity": 0.2603,
+            "precision": 0.0522,
+            "negative_predictive_value": 0.7902,
+            "f1": 0.0914,
+            "mcc": -0.2411,
+            "kappa": -0.0992,
+            "balanced_accuracy": 0.3155,
+            "brier": 0.7288,
+            "auc": 0.3155,
+            "auprc": 0.0816,
+            "threshold": 0.4988,
+            "tp": 218.0,
+            "tn": 1394.0,
+            "fp": 3962.0,
+            "fn": 370.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.2712,
+            "sensitivity": 0.3707,
+            "specificity": 0.2603,
+            "precision": 0.0522,
+            "negative_predictive_value": 0.7902,
+            "f1": 0.0914,
+            "mcc": -0.2411,
+            "kappa": -0.0992,
+            "balanced_accuracy": 0.3155,
+            "brier": 0.7288,
+            "auc": 0.3155,
+            "auprc": 0.0816,
+            "threshold": 0.4988,
+            "tp": 218.0,
+            "tn": 1394.0,
+            "fp": 3962.0,
+            "fn": 370.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.315509,
+          "diff": 0.473957,
+          "var": 0.000477,
+          "z": 21.690507,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 1226,
+          "c": 4263,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 92.35
+        }
+      },
+      "threshold": 0.4988,
+      "threshold_f1": 0.4988,
+      "threshold_youden": 0.4988,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "feature:unpaired_prob": {
+      "own_test": {
+        "accuracy": 0.709429449948753,
+        "sensitivity": 0.7394888705688376,
+        "specificity": 0.7015729368670545,
+        "precision": 0.39307624890446974,
+        "negative_predictive_value": 0.9115341545352743,
+        "f1": 0.513304721030043,
+        "mcc": 0.36654060498791924,
+        "kappa": 0.33275782421906575,
+        "balanced_accuracy": 0.720530903717946,
+        "brier": 0.21910613775253296,
+        "auc": 0.7848999197624386,
+        "auprc": 0.39335915788149395,
+        "threshold": 0.11265,
+        "tp": 897,
+        "tn": 3256,
+        "fp": 1385,
+        "fn": 316,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.6882901614072044,
+            0.7314983345753375
+          ],
+          "sensitivity": [
+            0.7077314695102179,
+            0.7708953531366757
+          ],
+          "specificity": [
+            0.6749136783345271,
+            0.7266303205101893
+          ],
+          "f1": [
+            0.485872872450523,
+            0.5403108982871458
+          ],
+          "mcc": [
+            0.33019925233272457,
+            0.4030450340034486
+          ],
+          "auc": [
+            0.7626270072538424,
+            0.8070953144367321
+          ],
+          "auprc": [
+            0.3634698652571253,
+            0.4255327298316245
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.7229,
+            "sensitivity": 0.6999,
+            "specificity": 0.7289,
+            "precision": 0.4029,
+            "negative_predictive_value": 0.9029,
+            "f1": 0.5114,
+            "mcc": 0.3621,
+            "kappa": 0.3371,
+            "balanced_accuracy": 0.7144,
+            "brier": 0.2191,
+            "auc": 0.7849,
+            "auprc": 0.3934,
+            "threshold": 0.1812,
+            "tp": 849.0,
+            "tn": 3383.0,
+            "fp": 1258.0,
+            "fn": 364.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.6759,
+            "sensitivity": 0.8129,
+            "specificity": 0.6402,
+            "precision": 0.3712,
+            "negative_predictive_value": 0.929,
+            "f1": 0.5097,
+            "mcc": 0.3688,
+            "kappa": 0.3147,
+            "balanced_accuracy": 0.7265,
+            "brier": 0.2191,
+            "auc": 0.7849,
+            "auprc": 0.3934,
+            "threshold": 0.0441,
+            "tp": 986.0,
+            "tn": 2971.0,
+            "fp": 1670.0,
+            "fn": 227.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.7849,
+          "diff": 0.126221,
+          "var": 8.3e-05,
+          "z": 13.89644,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 306,
+          "c": 1083,
+          "p": 0.0,
+          "baseline_threshold": 0.1127,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 23.73
+        }
+      },
+      "other_test": {
+        "accuracy": 0.6859017496635262,
+        "sensitivity": 0.8520408163265306,
+        "specificity": 0.6676624346527259,
+        "precision": 0.21964050854888206,
+        "negative_predictive_value": 0.9762489762489762,
+        "f1": 0.34925060996863017,
+        "mcc": 0.3190680210897021,
+        "kappa": 0.22778229308156495,
+        "balanced_accuracy": 0.7598516254896283,
+        "brier": 0.21261867880821228,
+        "auc": 0.7883813626272017,
+        "auprc": 0.21698687034556252,
+        "threshold": 0.11265,
+        "tp": 501,
+        "tn": 3576,
+        "fp": 1780,
+        "fn": 87,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.6651446025872019,
+            0.7066489594086959
+          ],
+          "sensitivity": [
+            0.8084890426758939,
+            0.895022073840359
+          ],
+          "specificity": [
+            0.6435319467945502,
+            0.6903094584095483
+          ],
+          "f1": [
+            0.32760975159092054,
+            0.3728953455115212
+          ],
+          "mcc": [
+            0.28908342176602514,
+            0.349541505611058
+          ],
+          "auc": [
+            0.762835628637824,
+            0.8129617213966851
+          ],
+          "auprc": [
+            0.1993339800692969,
+            0.24145750560076829
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.7079,
+            "sensitivity": 0.8129,
+            "specificity": 0.6964,
+            "precision": 0.2272,
+            "negative_predictive_value": 0.9714,
+            "f1": 0.3551,
+            "mcc": 0.318,
+            "kappa": 0.2372,
+            "balanced_accuracy": 0.7547,
+            "brier": 0.2126,
+            "auc": 0.7884,
+            "auprc": 0.217,
+            "threshold": 0.1812,
+            "tp": 478.0,
+            "tn": 3730.0,
+            "fp": 1626.0,
+            "fn": 110.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.6337,
+            "sensitivity": 0.8895,
+            "specificity": 0.6057,
+            "precision": 0.1985,
+            "negative_predictive_value": 0.9804,
+            "f1": 0.3245,
+            "mcc": 0.2976,
+            "kappa": 0.1942,
+            "balanced_accuracy": 0.7476,
+            "brier": 0.2126,
+            "auc": 0.7884,
+            "auprc": 0.217,
+            "threshold": 0.0441,
+            "tp": 523.0,
+            "tn": 3244.0,
+            "fp": 2112.0,
+            "fn": 65.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.788381,
+          "diff": 0.001085,
+          "var": 0.000205,
+          "z": 0.075708,
+          "p": 0.939651
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 463,
+          "c": 1035,
+          "p": 0.0,
+          "baseline_threshold": 0.1127,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 25.2
+        }
+      },
+      "threshold": 0.1127,
+      "threshold_f1": 0.1812,
+      "threshold_youden": 0.0441,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "feature:paired_mfe": {
+      "own_test": {
+        "accuracy": 0.18910146908097028,
+        "sensitivity": 0.1755976916735367,
+        "specificity": 0.19263089851325146,
+        "precision": 0.05378787878787879,
+        "negative_predictive_value": 0.4720168954593453,
+        "f1": 0.08235066692441523,
+        "mcc": -0.5473417454392872,
+        "kappa": -0.3440332268931834,
+        "balanced_accuracy": 0.18411429509339408,
+        "brier": 0.8108985424041748,
+        "auc": 0.18411429509339405,
+        "auprc": 0.180268395991997,
+        "threshold": 0.4988,
+        "tp": 213,
+        "tn": 894,
+        "fp": 3747,
+        "fn": 1000,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.16881220214678141,
+            0.20995266565663262
+          ],
+          "sensitivity": [
+            0.14400834626657283,
+            0.20883623202487367
+          ],
+          "specificity": [
+            0.1722481094254567,
+            0.21338325142020126
+          ],
+          "f1": [
+            0.06602227131439561,
+            0.09907554320230384
+          ],
+          "mcc": [
+            -0.5915655209288743,
+            -0.5030332032904754
+          ],
+          "auc": [
+            0.1610975515943987,
+            0.20677800688636477
+          ],
+          "auprc": [
+            0.16780296893682645,
+            0.1934334036064189
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.1891,
+            "sensitivity": 0.1756,
+            "specificity": 0.1926,
+            "precision": 0.0538,
+            "negative_predictive_value": 0.472,
+            "f1": 0.0824,
+            "mcc": -0.5473,
+            "kappa": -0.344,
+            "balanced_accuracy": 0.1841,
+            "brier": 0.8109,
+            "auc": 0.1841,
+            "auprc": 0.1803,
+            "threshold": 0.4988,
+            "tp": 213.0,
+            "tn": 894.0,
+            "fp": 3747.0,
+            "fn": 1000.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.1891,
+            "sensitivity": 0.1756,
+            "specificity": 0.1926,
+            "precision": 0.0538,
+            "negative_predictive_value": 0.472,
+            "f1": 0.0824,
+            "mcc": -0.5473,
+            "kappa": -0.344,
+            "balanced_accuracy": 0.1841,
+            "brier": 0.8109,
+            "auc": 0.1841,
+            "auprc": 0.1803,
+            "threshold": 0.4988,
+            "tp": 213.0,
+            "tn": 894.0,
+            "fp": 3747.0,
+            "fn": 1000.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.184114,
+          "diff": 0.727007,
+          "var": 0.000193,
+          "z": 52.369033,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 754,
+          "c": 4577,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 91.07
+        }
+      },
+      "other_test": {
+        "accuracy": 0.25235531628532976,
+        "sensitivity": 0.40816326530612246,
+        "specificity": 0.2352501867064974,
+        "precision": 0.055350553505535055,
+        "negative_predictive_value": 0.7835820895522388,
+        "f1": 0.09748172217709178,
+        "mcc": -0.23965486184402687,
+        "kappa": -0.09292915919156353,
+        "balanced_accuracy": 0.3217067260063099,
+        "brier": 0.7476446628570557,
+        "auc": 0.3217067260063099,
+        "auprc": 0.08113849603351693,
+        "threshold": 0.4988,
+        "tp": 240,
+        "tn": 1260,
+        "fp": 4096,
+        "fn": 348,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.23602799566849594,
+            0.26680009191423665
+          ],
+          "sensitivity": [
+            0.357590598459087,
+            0.46056891329042027
+          ],
+          "specificity": [
+            0.21923830137162514,
+            0.2499596114815745
+          ],
+          "f1": [
+            0.08566658116508995,
+            0.1098190070838588
+          ],
+          "mcc": [
+            -0.2786158196470645,
+            -0.20311414231722852
+          ],
+          "auc": [
+            0.29436964788270686,
+            0.3483276225695705
+          ],
+          "auprc": [
+            0.07591576381765185,
+            0.08582830141749812
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.2524,
+            "sensitivity": 0.4082,
+            "specificity": 0.2353,
+            "precision": 0.0554,
+            "negative_predictive_value": 0.7836,
+            "f1": 0.0975,
+            "mcc": -0.2397,
+            "kappa": -0.0929,
+            "balanced_accuracy": 0.3217,
+            "brier": 0.7476,
+            "auc": 0.3217,
+            "auprc": 0.0811,
+            "threshold": 0.4988,
+            "tp": 240.0,
+            "tn": 1260.0,
+            "fp": 4096.0,
+            "fn": 348.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.2524,
+            "sensitivity": 0.4082,
+            "specificity": 0.2353,
+            "precision": 0.0554,
+            "negative_predictive_value": 0.7836,
+            "f1": 0.0975,
+            "mcc": -0.2397,
+            "kappa": -0.0929,
+            "balanced_accuracy": 0.3217,
+            "brier": 0.7476,
+            "auc": 0.3217,
+            "auprc": 0.0811,
+            "threshold": 0.4988,
+            "tp": 240.0,
+            "tn": 1260.0,
+            "fp": 4096.0,
+            "fn": 348.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.321707,
+          "diff": 0.467759,
+          "var": 0.000483,
+          "z": 21.292537,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 1192,
+          "c": 4341,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 93.09
+        }
+      },
+      "threshold": 0.4988,
+      "threshold_f1": 0.4988,
+      "threshold_youden": 0.4988,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "logistic": {
+      "own_test": {
+        "accuracy": 0.8209771096686027,
+        "sensitivity": 0.809563066776587,
+        "specificity": 0.823960353372118,
+        "precision": 0.5458588104502501,
+        "negative_predictive_value": 0.9430332922318125,
+        "f1": 0.6520584329349269,
+        "mcc": 0.5565290621116137,
+        "kappa": 0.5376054973087625,
+        "balanced_accuracy": 0.8167617100743525,
+        "brier": 0.13050162084172262,
+        "auc": 0.8923305894112354,
+        "auprc": 0.6495677702365772,
+        "threshold": 0.51685,
+        "tp": 982,
+        "tn": 3824,
+        "fp": 817,
+        "fn": 231,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8000682021590212,
+            0.8405200721661936
+          ],
+          "sensitivity": [
+            0.7772785235673043,
+            0.837528309845888
+          ],
+          "specificity": [
+            0.8019273267394826,
+            0.8444122752391844
+          ],
+          "f1": [
+            0.6185844536057722,
+            0.682966079429172
+          ],
+          "mcc": [
+            0.5163779602615789,
+            0.5961540167187456
+          ],
+          "auc": [
+            0.8731675918687488,
+            0.9093717791932956
+          ],
+          "auprc": [
+            0.5971607859607032,
+            0.6996372083966979
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8459,
+            "sensitivity": 0.7222,
+            "specificity": 0.8783,
+            "precision": 0.6079,
+            "negative_predictive_value": 0.9236,
+            "f1": 0.6601,
+            "mcc": 0.5649,
+            "kappa": 0.5615,
+            "balanced_accuracy": 0.8002,
+            "brier": 0.1305,
+            "auc": 0.8923,
+            "auprc": 0.6496,
+            "threshold": 0.66,
+            "tp": 876.0,
+            "tn": 4076.0,
+            "fp": 565.0,
+            "fn": 337.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7904,
+            "sensitivity": 0.8673,
+            "specificity": 0.7703,
+            "precision": 0.4967,
+            "negative_predictive_value": 0.9569,
+            "f1": 0.6316,
+            "mcc": 0.5378,
+            "kappa": 0.4998,
+            "balanced_accuracy": 0.8188,
+            "brier": 0.1305,
+            "auc": 0.8923,
+            "auprc": 0.6496,
+            "threshold": 0.3737,
+            "tp": 1052.0,
+            "tn": 3575.0,
+            "fp": 1066.0,
+            "fn": 161.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.892331,
+          "diff": 0.018791,
+          "var": 2.5e-05,
+          "z": 3.778887,
+          "p": 0.000158
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 139,
+          "c": 263,
+          "p": 0.0,
+          "baseline_threshold": 0.5169,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 6.87
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7656460296096904,
+        "sensitivity": 0.6173469387755102,
+        "specificity": 0.7819268110530246,
+        "precision": 0.23709993468321358,
+        "negative_predictive_value": 0.9490142760027193,
+        "f1": 0.34261444077395,
+        "mcc": 0.272599557587591,
+        "kappa": 0.23297044524811772,
+        "balanced_accuracy": 0.6996368749142674,
+        "brier": 0.16522467048112296,
+        "auc": 0.7958158057845991,
+        "auprc": 0.34041040685624635,
+        "threshold": 0.51685,
+        "tp": 363,
+        "tn": 4188,
+        "fp": 1168,
+        "fn": 225,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7475569876784601,
+            0.783782936784105
+          ],
+          "sensitivity": [
+            0.5613104049910119,
+            0.6690026861783349
+          ],
+          "specificity": [
+            0.7626197056829418,
+            0.8012761281356251
+          ],
+          "f1": [
+            0.3141749989317609,
+            0.3762008014917412
+          ],
+          "mcc": [
+            0.23496709544183875,
+            0.31364762496336973
+          ],
+          "auc": [
+            0.7686809192475108,
+            0.8229921876203105
+          ],
+          "auprc": [
+            0.2942909681709795,
+            0.39889860799719296
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8153,
+            "sensitivity": 0.5646,
+            "specificity": 0.8428,
+            "precision": 0.2828,
+            "negative_predictive_value": 0.9463,
+            "f1": 0.3768,
+            "mcc": 0.3055,
+            "kappa": 0.2822,
+            "balanced_accuracy": 0.7037,
+            "brier": 0.1652,
+            "auc": 0.7958,
+            "auprc": 0.3404,
+            "threshold": 0.66,
+            "tp": 332.0,
+            "tn": 4514.0,
+            "fp": 842.0,
+            "fn": 256.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7261,
+            "sensitivity": 0.6599,
+            "specificity": 0.7334,
+            "precision": 0.2137,
+            "negative_predictive_value": 0.9516,
+            "f1": 0.3228,
+            "mcc": 0.2549,
+            "kappa": 0.2038,
+            "balanced_accuracy": 0.6966,
+            "brier": 0.1652,
+            "auc": 0.7958,
+            "auprc": 0.3404,
+            "threshold": 0.3737,
+            "tp": 388.0,
+            "tn": 3928.0,
+            "fp": 1428.0,
+            "fn": 200.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.795816,
+          "diff": -0.00635,
+          "var": 2.6e-05,
+          "z": -1.237949,
+          "p": 0.215735
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 95,
+          "c": 193,
+          "p": 0.0,
+          "baseline_threshold": 0.5169,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 4.85
+        }
+      },
+      "threshold": 0.5169,
+      "threshold_f1": 0.66,
+      "threshold_youden": 0.3737,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "svm": {
+      "own_test": {
+        "accuracy": 0.8281516911513495,
+        "sensitivity": 0.798845836768343,
+        "specificity": 0.8358112475759535,
+        "precision": 0.5597920277296361,
+        "negative_predictive_value": 0.940819791414019,
+        "f1": 0.658288043478261,
+        "mcc": 0.5636637628285203,
+        "kappa": 0.5481988558294469,
+        "balanced_accuracy": 0.8173285421721482,
+        "brier": 0.10399937917552124,
+        "auc": 0.8882677302007111,
+        "auprc": 0.6308735586276667,
+        "threshold": 0.24015,
+        "tp": 969,
+        "tn": 3879,
+        "fp": 762,
+        "fn": 244,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8092166952544311,
+            0.8473772564848571
+          ],
+          "sensitivity": [
+            0.7641626697792869,
+            0.8327937603460244
+          ],
+          "specificity": [
+            0.8161311412636597,
+            0.8554539686187317
+          ],
+          "f1": [
+            0.6245664845407765,
+            0.6903562892201927
+          ],
+          "mcc": [
+            0.5221530032391425,
+            0.6057737119448982
+          ],
+          "auc": [
+            0.8700432543352172,
+            0.9056161247187807
+          ],
+          "auprc": [
+            0.5919495348920075,
+            0.6717879842973897
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8384,
+            "sensitivity": 0.7461,
+            "specificity": 0.8625,
+            "precision": 0.5865,
+            "negative_predictive_value": 0.9286,
+            "f1": 0.6567,
+            "mcc": 0.5599,
+            "kappa": 0.553,
+            "balanced_accuracy": 0.8043,
+            "brier": 0.104,
+            "auc": 0.8883,
+            "auprc": 0.6309,
+            "threshold": 0.3592,
+            "tp": 905.0,
+            "tn": 4003.0,
+            "fp": 638.0,
+            "fn": 308.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.8042,
+            "sensitivity": 0.8623,
+            "specificity": 0.7891,
+            "precision": 0.5165,
+            "negative_predictive_value": 0.9564,
+            "f1": 0.6461,
+            "mcc": 0.555,
+            "kappa": 0.5223,
+            "balanced_accuracy": 0.8257,
+            "brier": 0.104,
+            "auc": 0.8883,
+            "auprc": 0.6309,
+            "threshold": 0.1211,
+            "tp": 1046.0,
+            "tn": 3662.0,
+            "fp": 979.0,
+            "fn": 167.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.888268,
+          "diff": 0.022853,
+          "var": 5.4e-05,
+          "z": 3.109545,
+          "p": 0.001874
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 171,
+          "c": 253,
+          "p": 8e-05,
+          "baseline_threshold": 0.2402,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 7.24
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7592530282637954,
+        "sensitivity": 0.5901360544217688,
+        "specificity": 0.7778192681105303,
+        "precision": 0.2257644762524398,
+        "negative_predictive_value": 0.945314272747901,
+        "f1": 0.3265882352941176,
+        "mcc": 0.25089706308931287,
+        "kappa": 0.214129123624473,
+        "balanced_accuracy": 0.6839776612661495,
+        "brier": 0.10953851023942783,
+        "auc": 0.730422490131228,
+        "auprc": 0.23746885024396225,
+        "threshold": 0.24015,
+        "tp": 347,
+        "tn": 4166,
+        "fp": 1190,
+        "fn": 241,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7430786746571654,
+            0.7749600025739242
+          ],
+          "sensitivity": [
+            0.5357040204982436,
+            0.6463231960538962
+          ],
+          "specificity": [
+            0.7618804435550287,
+            0.7940165082922531
+          ],
+          "f1": [
+            0.2960458530934782,
+            0.36073577318538125
+          ],
+          "mcc": [
+            0.21280650233165532,
+            0.2938358306819101
+          ],
+          "auc": [
+            0.6986016982532081,
+            0.7611319753025749
+          ],
+          "auprc": [
+            0.20682080456788124,
+            0.2754850002952124
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.7828,
+            "sensitivity": 0.5595,
+            "specificity": 0.8073,
+            "precision": 0.2417,
+            "negative_predictive_value": 0.9435,
+            "f1": 0.3376,
+            "mcc": 0.2607,
+            "kappa": 0.2314,
+            "balanced_accuracy": 0.6834,
+            "brier": 0.1095,
+            "auc": 0.7304,
+            "auprc": 0.2375,
+            "threshold": 0.3592,
+            "tp": 329.0,
+            "tn": 4324.0,
+            "fp": 1032.0,
+            "fn": 259.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7313,
+            "sensitivity": 0.6548,
+            "specificity": 0.7397,
+            "precision": 0.2164,
+            "negative_predictive_value": 0.9513,
+            "f1": 0.3253,
+            "mcc": 0.2572,
+            "kappa": 0.2075,
+            "balanced_accuracy": 0.6972,
+            "brier": 0.1095,
+            "auc": 0.7304,
+            "auprc": 0.2375,
+            "threshold": 0.1211,
+            "tp": 385.0,
+            "tn": 3962.0,
+            "fp": 1394.0,
+            "fn": 203.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.730422,
+          "diff": 0.059043,
+          "var": 5.4e-05,
+          "z": 8.031898,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 109,
+          "c": 245,
+          "p": 0.0,
+          "baseline_threshold": 0.2402,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 5.96
+        }
+      },
+      "threshold": 0.2402,
+      "threshold_f1": 0.3592,
+      "threshold_youden": 0.1211,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "rf": {
+      "own_test": {
+        "accuracy": 0.8370345063204646,
+        "sensitivity": 0.8037922506183017,
+        "specificity": 0.845722904546434,
+        "precision": 0.576581904198699,
+        "negative_predictive_value": 0.942829690127312,
+        "f1": 0.6714876033057852,
+        "mcc": 0.5808319053590477,
+        "kappa": 0.5669973987509354,
+        "balanced_accuracy": 0.8247575775823679,
+        "brier": 0.09525042823132233,
+        "auc": 0.9068017720119945,
+        "auprc": 0.7157395007948648,
+        "threshold": 0.3039,
+        "tp": 975,
+        "tn": 3925,
+        "fp": 716,
+        "fn": 238,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8179084432033629,
+            0.8556165207751601
+          ],
+          "sensitivity": [
+            0.769148138589006,
+            0.8345091065426405
+          ],
+          "specificity": [
+            0.8269092512909052,
+            0.8641966912210473
+          ],
+          "f1": [
+            0.6382769553697899,
+            0.7041529407567559
+          ],
+          "mcc": [
+            0.5379387907007926,
+            0.6226613251503282
+          ],
+          "auc": [
+            0.8895162857295437,
+            0.9229285496293566
+          ],
+          "auprc": [
+            0.6739929773563146,
+            0.7555478542664629
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8545,
+            "sensitivity": 0.7362,
+            "specificity": 0.8854,
+            "precision": 0.6267,
+            "negative_predictive_value": 0.9277,
+            "f1": 0.677,
+            "mcc": 0.587,
+            "kappa": 0.5839,
+            "balanced_accuracy": 0.8108,
+            "brier": 0.0953,
+            "auc": 0.9068,
+            "auprc": 0.7157,
+            "threshold": 0.3857,
+            "tp": 893.0,
+            "tn": 4109.0,
+            "fp": 532.0,
+            "fn": 320.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.8032,
+            "sensitivity": 0.8681,
+            "specificity": 0.7863,
+            "precision": 0.5149,
+            "negative_predictive_value": 0.958,
+            "f1": 0.6464,
+            "mcc": 0.5563,
+            "kappa": 0.5221,
+            "balanced_accuracy": 0.8272,
+            "brier": 0.0953,
+            "auc": 0.9068,
+            "auprc": 0.7157,
+            "threshold": 0.2221,
+            "tp": 1053.0,
+            "tn": 3649.0,
+            "fp": 992.0,
+            "fn": 160.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.906802,
+          "diff": 0.004319,
+          "var": 1.6e-05,
+          "z": 1.090532,
+          "p": 0.275479
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 165,
+          "c": 195,
+          "p": 0.126288,
+          "baseline_threshold": 0.3039,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 6.15
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7686742934051144,
+        "sensitivity": 0.608843537414966,
+        "specificity": 0.7862210604929052,
+        "precision": 0.2381902860944777,
+        "negative_predictive_value": 0.9482098626435488,
+        "f1": 0.34241989478718315,
+        "mcc": 0.27136709419374305,
+        "kappa": 0.23340101690438453,
+        "balanced_accuracy": 0.6975322989539356,
+        "brier": 0.11403627603331869,
+        "auc": 0.7834609478593529,
+        "auprc": 0.31608486222814214,
+        "threshold": 0.3039,
+        "tp": 358,
+        "tn": 4211,
+        "fp": 1145,
+        "fn": 230,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7527557008483196,
+            0.7845267575668443
+          ],
+          "sensitivity": [
+            0.5554901960784314,
+            0.6615911654617238
+          ],
+          "specificity": [
+            0.7702812766388047,
+            0.8018401697692085
+          ],
+          "f1": [
+            0.3134536762237412,
+            0.3753148539138453
+          ],
+          "mcc": [
+            0.23284074998036763,
+            0.31380046071514694
+          ],
+          "auc": [
+            0.7555186287035975,
+            0.8130001351390065
+          ],
+          "auprc": [
+            0.27590815029047927,
+            0.3755062778589501
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8011,
+            "sensitivity": 0.5629,
+            "specificity": 0.8273,
+            "precision": 0.2635,
+            "negative_predictive_value": 0.9452,
+            "f1": 0.359,
+            "mcc": 0.2854,
+            "kappa": 0.2592,
+            "balanced_accuracy": 0.6951,
+            "brier": 0.114,
+            "auc": 0.7835,
+            "auprc": 0.3161,
+            "threshold": 0.3857,
+            "tp": 331.0,
+            "tn": 4431.0,
+            "fp": 925.0,
+            "fn": 257.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7276,
+            "sensitivity": 0.6718,
+            "specificity": 0.7338,
+            "precision": 0.2169,
+            "negative_predictive_value": 0.9532,
+            "f1": 0.3279,
+            "mcc": 0.2626,
+            "kappa": 0.2098,
+            "balanced_accuracy": 0.7028,
+            "brier": 0.114,
+            "auc": 0.7835,
+            "auprc": 0.3161,
+            "threshold": 0.2221,
+            "tp": 395.0,
+            "tn": 3930.0,
+            "fp": 1426.0,
+            "fn": 193.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.783461,
+          "diff": 0.006005,
+          "var": 1.8e-05,
+          "z": 1.423471,
+          "p": 0.1546
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 111,
+          "c": 191,
+          "p": 5e-06,
+          "baseline_threshold": 0.3039,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 5.08
+        }
+      },
+      "threshold": 0.3039,
+      "threshold_f1": 0.3857,
+      "threshold_youden": 0.2221,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "gbm": {
+      "own_test": {
+        "accuracy": 0.8307140416809019,
+        "sensitivity": 0.8161582852431987,
+        "specificity": 0.8345184227537169,
+        "precision": 0.5631399317406144,
+        "negative_predictive_value": 0.945556640625,
+        "f1": 0.6664422753281724,
+        "mcc": 0.575323396948336,
+        "kappa": 0.5580734416133186,
+        "balanced_accuracy": 0.8253383539984578,
+        "brier": 0.0942587892874079,
+        "auc": 0.9088266291360225,
+        "auprc": 0.7210602056957044,
+        "threshold": 0.21849999999999997,
+        "tp": 990,
+        "tn": 3873,
+        "fp": 768,
+        "fn": 223,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8116604819623964,
+            0.8483658987978547
+          ],
+          "sensitivity": [
+            0.7820395273023635,
+            0.8445421570616882
+          ],
+          "specificity": [
+            0.8154237291321995,
+            0.8525870539075441
+          ],
+          "f1": [
+            0.6342410831943488,
+            0.6960205316101775
+          ],
+          "mcc": [
+            0.5342212076751676,
+            0.6143042483508669
+          ],
+          "auc": [
+            0.8917755049691655,
+            0.9239500902761923
+          ],
+          "auprc": [
+            0.6785671634928209,
+            0.7604042088748407
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8512,
+            "sensitivity": 0.756,
+            "specificity": 0.8761,
+            "precision": 0.6146,
+            "negative_predictive_value": 0.9321,
+            "f1": 0.678,
+            "mcc": 0.5879,
+            "kappa": 0.5826,
+            "balanced_accuracy": 0.816,
+            "brier": 0.0943,
+            "auc": 0.9088,
+            "auprc": 0.7211,
+            "threshold": 0.2991,
+            "tp": 917.0,
+            "tn": 4066.0,
+            "fp": 575.0,
+            "fn": 296.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7952,
+            "sensitivity": 0.8854,
+            "specificity": 0.7716,
+            "precision": 0.5033,
+            "negative_predictive_value": 0.9626,
+            "f1": 0.6418,
+            "mcc": 0.5533,
+            "kappa": 0.5131,
+            "balanced_accuracy": 0.8285,
+            "brier": 0.0943,
+            "auc": 0.9088,
+            "auprc": 0.7211,
+            "threshold": 0.1379,
+            "tp": 1074.0,
+            "tn": 3581.0,
+            "fp": 1060.0,
+            "fn": 139.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.911121,
+          "auc2": 0.908827,
+          "diff": 0.002295,
+          "var": 1.8e-05,
+          "z": 0.546306,
+          "p": 0.584856
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 165,
+          "c": 232,
+          "p": 0.000902,
+          "baseline_threshold": 0.2185,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 6.78
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7772543741588156,
+        "sensitivity": 0.6173469387755102,
+        "specificity": 0.7948095593726662,
+        "precision": 0.24829001367989056,
+        "negative_predictive_value": 0.9497991967871486,
+        "f1": 0.3541463414634146,
+        "mcc": 0.28573371398389785,
+        "kappa": 0.2480469884638552,
+        "balanced_accuracy": 0.7060782490740882,
+        "brier": 0.10393620141316273,
+        "auc": 0.7874163948626501,
+        "auprc": 0.3199193862500661,
+        "threshold": 0.21849999999999997,
+        "tp": 363,
+        "tn": 4257,
+        "fp": 1099,
+        "fn": 225,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7624140898342762,
+            0.7927646708377207
+          ],
+          "sensitivity": [
+            0.5604695780741955,
+            0.6719058930140597
+          ],
+          "specificity": [
+            0.7797050667752571,
+            0.8096155333386145
+          ],
+          "f1": [
+            0.32414541765055993,
+            0.3886700265508905
+          ],
+          "mcc": [
+            0.24711331909814685,
+            0.32834542774382924
+          ],
+          "auc": [
+            0.7603234798356572,
+            0.8186356989466499
+          ],
+          "auprc": [
+            0.27768101423159075,
+            0.3733617644298542
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8064,
+            "sensitivity": 0.5629,
+            "specificity": 0.8331,
+            "precision": 0.2702,
+            "negative_predictive_value": 0.9455,
+            "f1": 0.3651,
+            "mcc": 0.2923,
+            "kappa": 0.2672,
+            "balanced_accuracy": 0.698,
+            "brier": 0.1039,
+            "auc": 0.7874,
+            "auprc": 0.3199,
+            "threshold": 0.2991,
+            "tp": 331.0,
+            "tn": 4462.0,
+            "fp": 894.0,
+            "fn": 257.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7379,
+            "sensitivity": 0.6667,
+            "specificity": 0.7457,
+            "precision": 0.2235,
+            "negative_predictive_value": 0.9532,
+            "f1": 0.3348,
+            "mcc": 0.2699,
+            "kappa": 0.219,
+            "balanced_accuracy": 0.7062,
+            "brier": 0.1039,
+            "auc": 0.7874,
+            "auprc": 0.3199,
+            "threshold": 0.1379,
+            "tp": 392.0,
+            "tn": 3994.0,
+            "fp": 1362.0,
+            "fn": 196.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.789466,
+          "auc2": 0.787416,
+          "diff": 0.002049,
+          "var": 2.2e-05,
+          "z": 0.438514,
+          "p": 0.661014
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 157,
+          "c": 186,
+          "p": 0.13045,
+          "baseline_threshold": 0.2185,
+          "flexnet_threshold": 0.3436,
+          "disagreement_pct": 5.77
+        }
+      },
+      "threshold": 0.2185,
+      "threshold_f1": 0.2991,
+      "threshold_youden": 0.1379,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    }
+  },
+  "B": {
+    "flexnet": {
+      "own_test": {
+        "accuracy": 0.8521197846567967,
+        "sensitivity": 0.7227891156462585,
+        "specificity": 0.8663181478715459,
+        "precision": 0.37248028045574055,
+        "negative_predictive_value": 0.9660628773683114,
+        "f1": 0.4916136495083864,
+        "mcc": 0.4465850795631259,
+        "kappa": 0.41526967016438066,
+        "balanced_accuracy": 0.7945536317589021,
+        "brier": 0.07089242339134216,
+        "auc": 0.8713700192549012,
+        "auprc": 0.5066843073551559,
+        "threshold": 0.27505,
+        "tp": 425,
+        "tn": 4640,
+        "fp": 716,
+        "fn": 163,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.8393131736807,
+            0.8656296043124799
+          ],
+          "sensitivity": [
+            0.6713191303078944,
+            0.7776163968214256
+          ],
+          "specificity": [
+            0.8550708798606161,
+            0.877900311954271
+          ],
+          "f1": [
+            0.4557635929766389,
+            0.5310718954248367
+          ],
+          "mcc": [
+            0.403840461850152,
+            0.49202449194011316
+          ],
+          "auc": [
+            0.8421934247019831,
+            0.8994002837271565
+          ],
+          "auprc": [
+            0.4517689717663315,
+            0.571441383563008
+          ]
+        }
+      },
+      "other_test": {
+        "accuracy": 0.81465664502904,
+        "sensitivity": 0.494641384995878,
+        "specificity": 0.8982977806507219,
+        "precision": 0.5597014925373134,
+        "negative_predictive_value": 0.8718109577582601,
+        "f1": 0.5251641137855579,
+        "mcc": 0.4117743826238618,
+        "kappa": 0.41056456748404135,
+        "balanced_accuracy": 0.6964695828233,
+        "brier": 0.13245946168899536,
+        "auc": 0.8036996141598247,
+        "auprc": 0.534068536348868,
+        "threshold": 0.27505,
+        "tp": 600,
+        "tn": 4169,
+        "fp": 472,
+        "fn": 613,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.7994992730160435,
+            0.8286283991175484
+          ],
+          "sensitivity": [
+            0.4604706841171677,
+            0.5287658904883433
+          ],
+          "specificity": [
+            0.8869140990807293,
+            0.9084947432589366
+          ],
+          "f1": [
+            0.49161380548569217,
+            0.5560073819569222
+          ],
+          "mcc": [
+            0.37197462001438236,
+            0.4489335040157682
+          ],
+          "auc": [
+            0.7835127951084928,
+            0.8221787249636584
+          ],
+          "auprc": [
+            0.4920721729368147,
+            0.5744034836971253
+          ]
+        }
+      },
+      "threshold": 0.2751,
+      "threshold_f1": null,
+      "threshold_youden": null,
+      "threshold_source": "validation-calibrated (median of F1 and Youden optima), applied unchanged"
+    },
+    "feature:paired_cent": {
+      "own_test": {
+        "accuracy": 0.2711978465679677,
+        "sensitivity": 0.3707482993197279,
+        "specificity": 0.260268857356236,
+        "precision": 0.05215311004784689,
+        "negative_predictive_value": 0.7902494331065759,
+        "f1": 0.09144295302013423,
+        "mcc": -0.2411446821464619,
+        "kappa": -0.09921302222143313,
+        "balanced_accuracy": 0.31550857833798196,
+        "brier": 0.7288021445274353,
+        "auc": 0.31550857833798196,
+        "auprc": 0.08158332153818851,
+        "threshold": 0.4988,
+        "tp": 218,
+        "tn": 1394,
+        "fp": 3962,
+        "fn": 370,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.25058475506883005,
+            0.2927706173400882
+          ],
+          "sensitivity": [
+            0.31787443801070236,
+            0.4248022034900916
+          ],
+          "specificity": [
+            0.23741801701305987,
+            0.28414343662560704
+          ],
+          "f1": [
+            0.07852057278420804,
+            0.103688469060877
+          ],
+          "mcc": [
+            -0.2795202929717526,
+            -0.20569267572784056
+          ],
+          "auc": [
+            0.2870309691311113,
+            0.34227272504811895
+          ],
+          "auprc": [
+            0.07632414249054574,
+            0.08633948025661915
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.2712,
+            "sensitivity": 0.3707,
+            "specificity": 0.2603,
+            "precision": 0.0522,
+            "negative_predictive_value": 0.7902,
+            "f1": 0.0914,
+            "mcc": -0.2411,
+            "kappa": -0.0992,
+            "balanced_accuracy": 0.3155,
+            "brier": 0.7288,
+            "auc": 0.3155,
+            "auprc": 0.0816,
+            "threshold": 0.4988,
+            "tp": 218.0,
+            "tn": 1394.0,
+            "fp": 3962.0,
+            "fn": 370.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.2712,
+            "sensitivity": 0.3707,
+            "specificity": 0.2603,
+            "precision": 0.0522,
+            "negative_predictive_value": 0.7902,
+            "f1": 0.0914,
+            "mcc": -0.2411,
+            "kappa": -0.0992,
+            "balanced_accuracy": 0.3155,
+            "brier": 0.7288,
+            "auc": 0.3155,
+            "auprc": 0.0816,
+            "threshold": 0.4988,
+            "tp": 218.0,
+            "tn": 1394.0,
+            "fp": 3962.0,
+            "fn": 370.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.315509,
+          "diff": 0.555861,
+          "var": 0.00038,
+          "z": 28.522699,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 584,
+          "c": 4037,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 77.74
+        }
+      },
+      "other_test": {
+        "accuracy": 0.1990092244619064,
+        "sensitivity": 0.1549876339653751,
+        "specificity": 0.21051497522085758,
+        "precision": 0.04880581516095535,
+        "negative_predictive_value": 0.48801198801198803,
+        "f1": 0.07423494570582428,
+        "mcc": -0.5421142825624097,
+        "kappa": -0.3518173694118627,
+        "balanced_accuracy": 0.18275130459311634,
+        "brier": 0.8009907603263855,
+        "auc": 0.18275130459311634,
+        "auprc": 0.18265825066829816,
+        "threshold": 0.4988,
+        "tp": 188,
+        "tn": 977,
+        "fp": 3664,
+        "fn": 1025,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.17691680642405092,
+            0.22020403574264255
+          ],
+          "sensitivity": [
+            0.12539434983988235,
+            0.187452726132247
+          ],
+          "specificity": [
+            0.18673156779560815,
+            0.23457459287654914
+          ],
+          "f1": [
+            0.058351751052879645,
+            0.09092825823613462
+          ],
+          "mcc": [
+            -0.5844137082585716,
+            -0.5009959732737802
+          ],
+          "auc": [
+            0.16030253069711833,
+            0.20496789567872578
+          ],
+          "auprc": [
+            0.1703889625837049,
+            0.19584268817809772
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.199,
+            "sensitivity": 0.155,
+            "specificity": 0.2105,
+            "precision": 0.0488,
+            "negative_predictive_value": 0.488,
+            "f1": 0.0742,
+            "mcc": -0.5421,
+            "kappa": -0.3518,
+            "balanced_accuracy": 0.1828,
+            "brier": 0.801,
+            "auc": 0.1828,
+            "auprc": 0.1827,
+            "threshold": 0.4988,
+            "tp": 188.0,
+            "tn": 977.0,
+            "fp": 3664.0,
+            "fn": 1025.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.199,
+            "sensitivity": 0.155,
+            "specificity": 0.2105,
+            "precision": 0.0488,
+            "negative_predictive_value": 0.488,
+            "f1": 0.0742,
+            "mcc": -0.5421,
+            "kappa": -0.3518,
+            "balanced_accuracy": 0.1828,
+            "brier": 0.801,
+            "auc": 0.1828,
+            "auprc": 0.1827,
+            "threshold": 0.4988,
+            "tp": 188.0,
+            "tn": 977.0,
+            "fp": 3664.0,
+            "fn": 1025.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.182751,
+          "diff": 0.620948,
+          "var": 0.00016,
+          "z": 49.125677,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 420,
+          "c": 4024,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 75.91
+        }
+      },
+      "threshold": 0.4988,
+      "threshold_f1": 0.4988,
+      "threshold_youden": 0.4988,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "feature:unpaired_prob": {
+      "own_test": {
+        "accuracy": 0.742092866756393,
+        "sensitivity": 0.7602040816326531,
+        "specificity": 0.7401045556385362,
+        "precision": 0.24306688417618272,
+        "negative_predictive_value": 0.9656516443361753,
+        "f1": 0.3683559950556243,
+        "mcc": 0.32314653421205947,
+        "kappa": 0.25696510207915824,
+        "balanced_accuracy": 0.7501543186355946,
+        "brier": 0.21261867880821228,
+        "auc": 0.7883813626272017,
+        "auprc": 0.21698687034556252,
+        "threshold": 0.3424,
+        "tp": 447,
+        "tn": 3964,
+        "fp": 1392,
+        "fn": 141,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7219163579870302,
+            0.760197237163583
+          ],
+          "sensitivity": [
+            0.7090701389998403,
+            0.8098609637275709
+          ],
+          "specificity": [
+            0.7194126129473775,
+            0.7591581181088441
+          ],
+          "f1": [
+            0.3417747362328515,
+            0.3974550275251217
+          ],
+          "mcc": [
+            0.287514581886774,
+            0.3592821945773008
+          ],
+          "auc": [
+            0.762835628637824,
+            0.8129617213966851
+          ],
+          "auprc": [
+            0.1993339800692969,
+            0.24145750560076829
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.7658,
+            "sensitivity": 0.7058,
+            "specificity": 0.7724,
+            "precision": 0.254,
+            "negative_predictive_value": 0.9599,
+            "f1": 0.3735,
+            "mcc": 0.3198,
+            "kappa": 0.2669,
+            "balanced_accuracy": 0.7391,
+            "brier": 0.2126,
+            "auc": 0.7884,
+            "auprc": 0.217,
+            "threshold": 0.5156,
+            "tp": 415.0,
+            "tn": 4137.0,
+            "fp": 1219.0,
+            "fn": 173.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7052,
+            "sensitivity": 0.818,
+            "specificity": 0.6929,
+            "precision": 0.2262,
+            "negative_predictive_value": 0.972,
+            "f1": 0.3545,
+            "mcc": 0.3182,
+            "kappa": 0.2361,
+            "balanced_accuracy": 0.7554,
+            "brier": 0.2126,
+            "auc": 0.7884,
+            "auprc": 0.217,
+            "threshold": 0.1692,
+            "tp": 481.0,
+            "tn": 3711.0,
+            "fp": 1645.0,
+            "fn": 107.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.788381,
+          "diff": 0.082989,
+          "var": 0.000168,
+          "z": 6.410709,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 119,
+          "c": 773,
+          "p": 0.0,
+          "baseline_threshold": 0.3424,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 15.01
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7396651861974718,
+        "sensitivity": 0.6595218466611706,
+        "specificity": 0.7606119370825253,
+        "precision": 0.4186289900575615,
+        "negative_predictive_value": 0.8952574182094851,
+        "f1": 0.5121638924455826,
+        "mcc": 0.3631449908383053,
+        "kappa": 0.34649720440000265,
+        "balanced_accuracy": 0.710066891871848,
+        "brier": 0.21910613775253296,
+        "auc": 0.7848999197624386,
+        "auprc": 0.39335915788149395,
+        "threshold": 0.3424,
+        "tp": 800,
+        "tn": 3530,
+        "fp": 1111,
+        "fn": 413,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.7198062411126275,
+            0.7594025183475955
+          ],
+          "sensitivity": [
+            0.6258038606037052,
+            0.6939638500885305
+          ],
+          "specificity": [
+            0.7391566205717234,
+            0.7820833447103117
+          ],
+          "f1": [
+            0.48247719589207116,
+            0.5409138097525216
+          ],
+          "mcc": [
+            0.32612101294001156,
+            0.4016783615252233
+          ],
+          "auc": [
+            0.7626270072538424,
+            0.8070953144367321
+          ],
+          "auprc": [
+            0.3634698652571253,
+            0.4255327298316245
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.7518,
+            "sensitivity": 0.6158,
+            "specificity": 0.7873,
+            "precision": 0.4308,
+            "negative_predictive_value": 0.8869,
+            "f1": 0.507,
+            "mcc": 0.3579,
+            "kappa": 0.348,
+            "balanced_accuracy": 0.7016,
+            "brier": 0.2191,
+            "auc": 0.7849,
+            "auprc": 0.3934,
+            "threshold": 0.5156,
+            "tp": 747.0,
+            "tn": 3654.0,
+            "fp": 987.0,
+            "fn": 466.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7205,
+            "sensitivity": 0.704,
+            "specificity": 0.7248,
+            "precision": 0.4008,
+            "negative_predictive_value": 0.9036,
+            "f1": 0.5108,
+            "mcc": 0.3613,
+            "kappa": 0.3352,
+            "balanced_accuracy": 0.7144,
+            "brier": 0.2191,
+            "auc": 0.7849,
+            "auprc": 0.3934,
+            "threshold": 0.1692,
+            "tp": 854.0,
+            "tn": 3364.0,
+            "fp": 1277.0,
+            "fn": 359.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.7849,
+          "diff": 0.0188,
+          "var": 6.2e-05,
+          "z": 2.378043,
+          "p": 0.017405
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 269,
+          "c": 708,
+          "p": 0.0,
+          "baseline_threshold": 0.3424,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 16.69
+        }
+      },
+      "threshold": 0.3424,
+      "threshold_f1": 0.5156,
+      "threshold_youden": 0.1692,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "feature:paired_mfe": {
+      "own_test": {
+        "accuracy": 0.25235531628532976,
+        "sensitivity": 0.40816326530612246,
+        "specificity": 0.2352501867064974,
+        "precision": 0.055350553505535055,
+        "negative_predictive_value": 0.7835820895522388,
+        "f1": 0.09748172217709178,
+        "mcc": -0.23965486184402687,
+        "kappa": -0.09292915919156353,
+        "balanced_accuracy": 0.3217067260063099,
+        "brier": 0.7476446628570557,
+        "auc": 0.3217067260063099,
+        "auprc": 0.08113849603351693,
+        "threshold": 0.4988,
+        "tp": 240,
+        "tn": 1260,
+        "fp": 4096,
+        "fn": 348,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.23602799566849594,
+            0.26680009191423665
+          ],
+          "sensitivity": [
+            0.357590598459087,
+            0.46056891329042027
+          ],
+          "specificity": [
+            0.21923830137162514,
+            0.2499596114815745
+          ],
+          "f1": [
+            0.08566658116508995,
+            0.1098190070838588
+          ],
+          "mcc": [
+            -0.2786158196470645,
+            -0.20311414231722852
+          ],
+          "auc": [
+            0.29436964788270686,
+            0.3483276225695705
+          ],
+          "auprc": [
+            0.07591576381765185,
+            0.08582830141749812
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.2524,
+            "sensitivity": 0.4082,
+            "specificity": 0.2353,
+            "precision": 0.0554,
+            "negative_predictive_value": 0.7836,
+            "f1": 0.0975,
+            "mcc": -0.2397,
+            "kappa": -0.0929,
+            "balanced_accuracy": 0.3217,
+            "brier": 0.7476,
+            "auc": 0.3217,
+            "auprc": 0.0811,
+            "threshold": 0.4988,
+            "tp": 240.0,
+            "tn": 1260.0,
+            "fp": 4096.0,
+            "fn": 348.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.2524,
+            "sensitivity": 0.4082,
+            "specificity": 0.2353,
+            "precision": 0.0554,
+            "negative_predictive_value": 0.7836,
+            "f1": 0.0975,
+            "mcc": -0.2397,
+            "kappa": -0.0929,
+            "balanced_accuracy": 0.3217,
+            "brier": 0.7476,
+            "auc": 0.3217,
+            "auprc": 0.0811,
+            "threshold": 0.4988,
+            "tp": 240.0,
+            "tn": 1260.0,
+            "fp": 4096.0,
+            "fn": 348.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.321707,
+          "diff": 0.549663,
+          "var": 0.000382,
+          "z": 28.139147,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 543,
+          "c": 4108,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 78.25
+        }
+      },
+      "other_test": {
+        "accuracy": 0.18910146908097028,
+        "sensitivity": 0.1755976916735367,
+        "specificity": 0.19263089851325146,
+        "precision": 0.05378787878787879,
+        "negative_predictive_value": 0.4720168954593453,
+        "f1": 0.08235066692441523,
+        "mcc": -0.5473417454392872,
+        "kappa": -0.3440332268931834,
+        "balanced_accuracy": 0.18411429509339408,
+        "brier": 0.8108985424041748,
+        "auc": 0.18411429509339405,
+        "auprc": 0.180268395991997,
+        "threshold": 0.4988,
+        "tp": 213,
+        "tn": 894,
+        "fp": 3747,
+        "fn": 1000,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.16881220214678141,
+            0.20995266565663262
+          ],
+          "sensitivity": [
+            0.14400834626657283,
+            0.20883623202487367
+          ],
+          "specificity": [
+            0.1722481094254567,
+            0.21338325142020126
+          ],
+          "f1": [
+            0.06602227131439561,
+            0.09907554320230384
+          ],
+          "mcc": [
+            -0.5915655209288743,
+            -0.5030332032904754
+          ],
+          "auc": [
+            0.1610975515943987,
+            0.20677800688636477
+          ],
+          "auprc": [
+            0.16780296893682645,
+            0.1934334036064189
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.1891,
+            "sensitivity": 0.1756,
+            "specificity": 0.1926,
+            "precision": 0.0538,
+            "negative_predictive_value": 0.472,
+            "f1": 0.0824,
+            "mcc": -0.5473,
+            "kappa": -0.344,
+            "balanced_accuracy": 0.1841,
+            "brier": 0.8109,
+            "auc": 0.1841,
+            "auprc": 0.1803,
+            "threshold": 0.4988,
+            "tp": 213.0,
+            "tn": 894.0,
+            "fp": 3747.0,
+            "fn": 1000.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.1891,
+            "sensitivity": 0.1756,
+            "specificity": 0.1926,
+            "precision": 0.0538,
+            "negative_predictive_value": 0.472,
+            "f1": 0.0824,
+            "mcc": -0.5473,
+            "kappa": -0.344,
+            "balanced_accuracy": 0.1841,
+            "brier": 0.8109,
+            "auc": 0.1841,
+            "auprc": 0.1803,
+            "threshold": 0.4988,
+            "tp": 213.0,
+            "tn": 894.0,
+            "fp": 3747.0,
+            "fn": 1000.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.184114,
+          "diff": 0.619585,
+          "var": 0.00016,
+          "z": 48.978081,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 407,
+          "c": 4069,
+          "p": 0.0,
+          "baseline_threshold": 0.4988,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 76.46
+        }
+      },
+      "threshold": 0.4988,
+      "threshold_f1": 0.4988,
+      "threshold_youden": 0.4988,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "logistic": {
+      "own_test": {
+        "accuracy": 0.8120794078061911,
+        "sensitivity": 0.7074829931972789,
+        "specificity": 0.823562359970127,
+        "precision": 0.3056576047024247,
+        "negative_predictive_value": 0.9624699978180231,
+        "f1": 0.426885582349923,
+        "mcc": 0.37734323549575,
+        "kappa": 0.33501249959937185,
+        "balanced_accuracy": 0.7655226765837029,
+        "brier": 0.15214914004444804,
+        "auc": 0.847272179969822,
+        "auprc": 0.376976091771917,
+        "threshold": 0.59385,
+        "tp": 416,
+        "tn": 4411,
+        "fp": 945,
+        "fn": 172,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7979048465963097,
+            0.8260494494999014
+          ],
+          "sensitivity": [
+            0.6608768494795213,
+            0.761921267640505
+          ],
+          "specificity": [
+            0.8110118243267205,
+            0.8363628459628071
+          ],
+          "f1": [
+            0.3936023022114523,
+            0.4614581617525943
+          ],
+          "mcc": [
+            0.3374322111205937,
+            0.4208846348712925
+          ],
+          "auc": [
+            0.8227292854044324,
+            0.8727892062747308
+          ],
+          "auprc": [
+            0.3355323734275589,
+            0.4276278907435563
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8871,
+            "sensitivity": 0.4796,
+            "specificity": 0.9319,
+            "precision": 0.4359,
+            "negative_predictive_value": 0.9422,
+            "f1": 0.4567,
+            "mcc": 0.3944,
+            "kappa": 0.3939,
+            "balanced_accuracy": 0.7057,
+            "brier": 0.1521,
+            "auc": 0.8473,
+            "auprc": 0.377,
+            "threshold": 0.7851,
+            "tp": 282.0,
+            "tn": 4991.0,
+            "fp": 365.0,
+            "fn": 306.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7283,
+            "sensitivity": 0.8231,
+            "specificity": 0.7179,
+            "precision": 0.2426,
+            "negative_predictive_value": 0.9737,
+            "f1": 0.3748,
+            "mcc": 0.3421,
+            "kappa": 0.262,
+            "balanced_accuracy": 0.7705,
+            "brier": 0.1521,
+            "auc": 0.8473,
+            "auprc": 0.377,
+            "threshold": 0.4026,
+            "tp": 484.0,
+            "tn": 3845.0,
+            "fp": 1511.0,
+            "fn": 104.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.847272,
+          "diff": 0.024098,
+          "var": 6.3e-05,
+          "z": 3.025661,
+          "p": 0.002481
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 152,
+          "c": 390,
+          "p": 0.0,
+          "baseline_threshold": 0.5938,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 9.12
+        }
+      },
+      "other_test": {
+        "accuracy": 0.8190980526135976,
+        "sensitivity": 0.5449299258037923,
+        "specificity": 0.8907563025210085,
+        "precision": 0.5659246575342466,
+        "negative_predictive_value": 0.882202304737516,
+        "f1": 0.5552288954220915,
+        "mcc": 0.44186281355510615,
+        "kappa": 0.44173846891156854,
+        "balanced_accuracy": 0.7178431141624004,
+        "brier": 0.14039729507614668,
+        "auc": 0.809648064946062,
+        "auprc": 0.5740490515620034,
+        "threshold": 0.59385,
+        "tp": 661,
+        "tn": 4134,
+        "fp": 507,
+        "fn": 552,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8040257150785738,
+            0.833334037519013
+          ],
+          "sensitivity": [
+            0.5035866437985851,
+            0.5924526853600487
+          ],
+          "specificity": [
+            0.8782365461694764,
+            0.9013584121755365
+          ],
+          "f1": [
+            0.5170333437357723,
+            0.5903289451899683
+          ],
+          "mcc": [
+            0.39710935557420435,
+            0.4841777154407123
+          ],
+          "auc": [
+            0.7872405056151505,
+            0.8282448921535129
+          ],
+          "auprc": [
+            0.5320784198390939,
+            0.6140421144841836
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8268,
+            "sensitivity": 0.2861,
+            "specificity": 0.9681,
+            "precision": 0.701,
+            "negative_predictive_value": 0.8384,
+            "f1": 0.4063,
+            "mcc": 0.3703,
+            "kappa": 0.3253,
+            "balanced_accuracy": 0.6271,
+            "brier": 0.1404,
+            "auc": 0.8096,
+            "auprc": 0.574,
+            "threshold": 0.7851,
+            "tp": 347.0,
+            "tn": 4493.0,
+            "fp": 148.0,
+            "fn": 866.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7684,
+            "sensitivity": 0.6793,
+            "specificity": 0.7916,
+            "precision": 0.4601,
+            "negative_predictive_value": 0.9043,
+            "f1": 0.5486,
+            "mcc": 0.4142,
+            "kappa": 0.4005,
+            "balanced_accuracy": 0.7355,
+            "brier": 0.1404,
+            "auc": 0.8096,
+            "auprc": 0.574,
+            "threshold": 0.4026,
+            "tp": 824.0,
+            "tn": 3674.0,
+            "fp": 967.0,
+            "fn": 389.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.809648,
+          "diff": -0.005948,
+          "var": 3.4e-05,
+          "z": -1.02556,
+          "p": 0.305099
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 302,
+          "c": 276,
+          "p": 0.298398,
+          "baseline_threshold": 0.5938,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 9.87
+        }
+      },
+      "threshold": 0.5938,
+      "threshold_f1": 0.7851,
+      "threshold_youden": 0.4026,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "svm": {
+      "own_test": {
+        "accuracy": 0.8151076716016151,
+        "sensitivity": 0.6819727891156463,
+        "specificity": 0.8297236743838685,
+        "precision": 0.3054074638233054,
+        "negative_predictive_value": 0.9596199524940617,
+        "f1": 0.4218832193582325,
+        "mcc": 0.36825750726904455,
+        "kappa": 0.3303792257378845,
+        "balanced_accuracy": 0.7558482317497575,
+        "brier": 0.0745840797109249,
+        "auc": 0.8157972113415942,
+        "auprc": 0.3463265265949615,
+        "threshold": 0.1331,
+        "tp": 401,
+        "tn": 4444,
+        "fp": 912,
+        "fn": 187,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.7997047074600537,
+            0.8292241131826708
+          ],
+          "sensitivity": [
+            0.6243341855757962,
+            0.7429644968872913
+          ],
+          "specificity": [
+            0.8147767356162569,
+            0.8452735999456229
+          ],
+          "f1": [
+            0.39014641065137484,
+            0.45684219680827926
+          ],
+          "mcc": [
+            0.32812368913816076,
+            0.4099447926126698
+          ],
+          "auc": [
+            0.7845599609957378,
+            0.847282901947902
+          ],
+          "auprc": [
+            0.3029408769122996,
+            0.3978918546047977
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8383,
+            "sensitivity": 0.6207,
+            "specificity": 0.8622,
+            "precision": 0.3309,
+            "negative_predictive_value": 0.9539,
+            "f1": 0.4317,
+            "mcc": 0.3709,
+            "kappa": 0.3475,
+            "balanced_accuracy": 0.7415,
+            "brier": 0.0746,
+            "auc": 0.8158,
+            "auprc": 0.3463,
+            "threshold": 0.1764,
+            "tp": 365.0,
+            "tn": 4618.0,
+            "fp": 738.0,
+            "fn": 223.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7717,
+            "sensitivity": 0.733,
+            "specificity": 0.776,
+            "precision": 0.2643,
+            "negative_predictive_value": 0.9636,
+            "f1": 0.3885,
+            "mcc": 0.3405,
+            "kappa": 0.2844,
+            "balanced_accuracy": 0.7545,
+            "brier": 0.0746,
+            "auc": 0.8158,
+            "auprc": 0.3463,
+            "threshold": 0.0898,
+            "tp": 431.0,
+            "tn": 4156.0,
+            "fp": 1200.0,
+            "fn": 157.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.815797,
+          "diff": 0.055573,
+          "var": 9.2e-05,
+          "z": 5.808308,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 216,
+          "c": 436,
+          "p": 0.0,
+          "baseline_threshold": 0.1331,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 10.97
+        }
+      },
+      "other_test": {
+        "accuracy": 0.7967201913221729,
+        "sensitivity": 0.3957131079967024,
+        "specificity": 0.9015298427063133,
+        "precision": 0.512273212379936,
+        "negative_predictive_value": 0.8509253609924751,
+        "f1": 0.4465116279069768,
+        "mcc": 0.3285699554742357,
+        "kappa": 0.3245125685813296,
+        "balanced_accuracy": 0.6486214753515078,
+        "brier": 0.16576106738240504,
+        "auc": 0.710956219636691,
+        "auprc": 0.4110639900059213,
+        "threshold": 0.1331,
+        "tp": 480,
+        "tn": 4184,
+        "fp": 457,
+        "fn": 733,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.7825479872407276,
+            0.8115285988288455
+          ],
+          "sensitivity": [
+            0.3529770656345077,
+            0.4410884337801106
+          ],
+          "specificity": [
+            0.8898228882978922,
+            0.9115033002132733
+          ],
+          "f1": [
+            0.4074265823019343,
+            0.4862143490654746
+          ],
+          "mcc": [
+            0.2843857398216878,
+            0.3736752142205632
+          ],
+          "auc": [
+            0.6853666630378125,
+            0.738025069283352
+          ],
+          "auprc": [
+            0.37301202878549494,
+            0.4504759959121122
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8049,
+            "sensitivity": 0.3207,
+            "specificity": 0.9315,
+            "precision": 0.5502,
+            "negative_predictive_value": 0.8399,
+            "f1": 0.4052,
+            "mcc": 0.3137,
+            "kappa": 0.2981,
+            "balanced_accuracy": 0.6261,
+            "brier": 0.1658,
+            "auc": 0.711,
+            "auprc": 0.4111,
+            "threshold": 0.1764,
+            "tp": 389.0,
+            "tn": 4323.0,
+            "fp": 318.0,
+            "fn": 824.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7761,
+            "sensitivity": 0.479,
+            "specificity": 0.8537,
+            "precision": 0.4611,
+            "negative_predictive_value": 0.8624,
+            "f1": 0.4699,
+            "mcc": 0.3281,
+            "kappa": 0.328,
+            "balanced_accuracy": 0.6663,
+            "brier": 0.1658,
+            "auc": 0.711,
+            "auprc": 0.4111,
+            "threshold": 0.0898,
+            "tp": 581.0,
+            "tn": 3962.0,
+            "fp": 679.0,
+            "fn": 632.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.710956,
+          "diff": 0.092743,
+          "var": 5.5e-05,
+          "z": 12.452385,
+          "p": 0.0
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 318,
+          "c": 423,
+          "p": 0.00013,
+          "baseline_threshold": 0.1331,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 12.66
+        }
+      },
+      "threshold": 0.1331,
+      "threshold_f1": 0.1764,
+      "threshold_youden": 0.0898,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "rf": {
+      "own_test": {
+        "accuracy": 0.840343203230148,
+        "sensitivity": 0.6530612244897959,
+        "specificity": 0.8609036594473488,
+        "precision": 0.34012400354295835,
+        "negative_predictive_value": 0.957632398753894,
+        "f1": 0.4472917880023296,
+        "mcc": 0.39119858735435575,
+        "kappa": 0.3646356715998299,
+        "balanced_accuracy": 0.7569824419685723,
+        "brier": 0.07087348239290955,
+        "auc": 0.8493904096365954,
+        "auprc": 0.42262182296575374,
+        "threshold": 0.19805,
+        "tp": 384,
+        "tn": 4611,
+        "fp": 745,
+        "fn": 204,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.8258638448470359,
+            0.8529773440182505
+          ],
+          "sensitivity": [
+            0.5966921137414203,
+            0.7087248599824053
+          ],
+          "specificity": [
+            0.8484956056502214,
+            0.871843897080938
+          ],
+          "f1": [
+            0.40829699698602256,
+            0.4882690110022688
+          ],
+          "mcc": [
+            0.3443196808876363,
+            0.43893791188684855
+          ],
+          "auc": [
+            0.8223108795804289,
+            0.8772250209778616
+          ],
+          "auprc": [
+            0.3733168222979408,
+            0.4794900104099426
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8784,
+            "sensitivity": 0.5459,
+            "specificity": 0.9149,
+            "precision": 0.4131,
+            "negative_predictive_value": 0.9483,
+            "f1": 0.4703,
+            "mcc": 0.4081,
+            "kappa": 0.4031,
+            "balanced_accuracy": 0.7304,
+            "brier": 0.0709,
+            "auc": 0.8494,
+            "auprc": 0.4226,
+            "threshold": 0.2823,
+            "tp": 321.0,
+            "tn": 4900.0,
+            "fp": 456.0,
+            "fn": 267.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7455,
+            "sensitivity": 0.8027,
+            "specificity": 0.7392,
+            "precision": 0.2525,
+            "negative_predictive_value": 0.9715,
+            "f1": 0.3842,
+            "mcc": 0.3485,
+            "kappa": 0.2751,
+            "balanced_accuracy": 0.7709,
+            "brier": 0.0709,
+            "auc": 0.8494,
+            "auprc": 0.4226,
+            "threshold": 0.1138,
+            "tp": 472.0,
+            "tn": 3959.0,
+            "fp": 1397.0,
+            "fn": 116.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.84939,
+          "diff": 0.02198,
+          "var": 6.5e-05,
+          "z": 2.716708,
+          "p": 0.006593
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 214,
+          "c": 284,
+          "p": 0.001959,
+          "baseline_threshold": 0.1981,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 8.38
+        }
+      },
+      "other_test": {
+        "accuracy": 0.8249060471472498,
+        "sensitivity": 0.4921681780708986,
+        "specificity": 0.911872441284206,
+        "precision": 0.5934393638170974,
+        "negative_predictive_value": 0.8729372937293729,
+        "f1": 0.5380802163136548,
+        "mcc": 0.43409113509473946,
+        "kappa": 0.43121787160871594,
+        "balanced_accuracy": 0.7020203096775522,
+        "brier": 0.14204798928598197,
+        "auc": 0.8088016359438697,
+        "auprc": 0.5627907365296111,
+        "threshold": 0.19805,
+        "tp": 597,
+        "tn": 4232,
+        "fp": 409,
+        "fn": 616,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8096635491847076,
+            0.8404214222751153
+          ],
+          "sensitivity": [
+            0.44991614190102536,
+            0.5366972487006427
+          ],
+          "specificity": [
+            0.9017477669763604,
+            0.9208886260012927
+          ],
+          "f1": [
+            0.4997827295817406,
+            0.5747289379049554
+          ],
+          "mcc": [
+            0.3893491423962482,
+            0.4765710352243241
+          ],
+          "auc": [
+            0.7869400663169206,
+            0.8300558010568594
+          ],
+          "auprc": [
+            0.523221239444949,
+            0.6011486121901819
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8276,
+            "sensitivity": 0.3059,
+            "specificity": 0.964,
+            "precision": 0.6896,
+            "negative_predictive_value": 0.8416,
+            "f1": 0.4238,
+            "mcc": 0.3786,
+            "kappa": 0.3397,
+            "balanced_accuracy": 0.6349,
+            "brier": 0.142,
+            "auc": 0.8088,
+            "auprc": 0.5628,
+            "threshold": 0.2823,
+            "tp": 371.0,
+            "tn": 4474.0,
+            "fp": 167.0,
+            "fn": 842.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7615,
+            "sensitivity": 0.6991,
+            "specificity": 0.7778,
+            "precision": 0.4513,
+            "negative_predictive_value": 0.9082,
+            "f1": 0.5485,
+            "mcc": 0.4141,
+            "kappa": 0.3965,
+            "balanced_accuracy": 0.7385,
+            "brier": 0.142,
+            "auc": 0.8088,
+            "auprc": 0.5628,
+            "threshold": 0.1138,
+            "tp": 848.0,
+            "tn": 3610.0,
+            "fp": 1031.0,
+            "fn": 365.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.808802,
+          "diff": -0.005102,
+          "var": 3.8e-05,
+          "z": -0.826661,
+          "p": 0.408429
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 320,
+          "c": 260,
+          "p": 0.014222,
+          "baseline_threshold": 0.1981,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 9.91
+        }
+      },
+      "threshold": 0.1981,
+      "threshold_f1": 0.2823,
+      "threshold_youden": 0.1138,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    },
+    "gbm": {
+      "own_test": {
+        "accuracy": 0.8495962314939435,
+        "sensitivity": 0.6428571428571429,
+        "specificity": 0.8722927557879014,
+        "precision": 0.3559322033898305,
+        "negative_predictive_value": 0.956984842277755,
+        "f1": 0.45818181818181813,
+        "mcc": 0.401496182248304,
+        "kappa": 0.37911792087759244,
+        "balanced_accuracy": 0.7575749493225221,
+        "brier": 0.0711405895033513,
+        "auc": 0.8506533774824344,
+        "auprc": 0.40139866474698255,
+        "threshold": 0.15475,
+        "tp": 378,
+        "tn": 4672,
+        "fp": 684,
+        "fn": 210,
+        "n_measured": 5944,
+        "n_rnas": 68,
+        "prevalence": 0.09892328398384927,
+        "ci": {
+          "accuracy": [
+            0.8357219627399709,
+            0.8626540182564049
+          ],
+          "sensitivity": [
+            0.5883161519198665,
+            0.7012180234923907
+          ],
+          "specificity": [
+            0.8592565517719205,
+            0.8831275749704823
+          ],
+          "f1": [
+            0.4175960165269435,
+            0.5
+          ],
+          "mcc": [
+            0.35491254142532497,
+            0.4502949711228375
+          ],
+          "auc": [
+            0.8241587338928152,
+            0.878203735148722
+          ],
+          "auprc": [
+            0.3552935282937534,
+            0.45295082103549233
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.8841,
+            "sensitivity": 0.5017,
+            "specificity": 0.9261,
+            "precision": 0.4269,
+            "negative_predictive_value": 0.9442,
+            "f1": 0.4613,
+            "mcc": 0.3984,
+            "kappa": 0.3968,
+            "balanced_accuracy": 0.7139,
+            "brier": 0.0711,
+            "auc": 0.8507,
+            "auprc": 0.4014,
+            "threshold": 0.2558,
+            "tp": 295.0,
+            "tn": 4960.0,
+            "fp": 396.0,
+            "fn": 293.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7433,
+            "sensitivity": 0.8248,
+            "specificity": 0.7343,
+            "precision": 0.2542,
+            "negative_predictive_value": 0.9745,
+            "f1": 0.3886,
+            "mcc": 0.3576,
+            "kappa": 0.2797,
+            "balanced_accuracy": 0.7796,
+            "brier": 0.0711,
+            "auc": 0.8507,
+            "auprc": 0.4014,
+            "threshold": 0.0537,
+            "tp": 485.0,
+            "tn": 3933.0,
+            "fp": 1423.0,
+            "fn": 103.0,
+            "n_measured": 5944.0,
+            "n_rnas": 68.0,
+            "prevalence": 0.0989
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.87137,
+          "auc2": 0.850653,
+          "diff": 0.020717,
+          "var": 6.9e-05,
+          "z": 2.501345,
+          "p": 0.012372
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 254,
+          "c": 269,
+          "p": 0.540461,
+          "baseline_threshold": 0.1547,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 8.8
+        }
+      },
+      "other_test": {
+        "accuracy": 0.824735223778613,
+        "sensitivity": 0.44105523495465787,
+        "specificity": 0.925016160310278,
+        "precision": 0.6058890147225368,
+        "negative_predictive_value": 0.8636089318044659,
+        "f1": 0.5104961832061068,
+        "mcc": 0.41457178915015686,
+        "kappa": 0.4069601906667828,
+        "balanced_accuracy": 0.683035697632468,
+        "brier": 0.15195768443491947,
+        "auc": 0.811438621995821,
+        "auprc": 0.5585336747449113,
+        "threshold": 0.15475,
+        "tp": 535,
+        "tn": 4293,
+        "fp": 348,
+        "fn": 678,
+        "n_measured": 5854,
+        "n_rnas": 162,
+        "prevalence": 0.2072087461564742,
+        "ci": {
+          "accuracy": [
+            0.8092723011760321,
+            0.8392236375111667
+          ],
+          "sensitivity": [
+            0.39900816877035833,
+            0.481723069596507
+          ],
+          "specificity": [
+            0.9157909892641314,
+            0.9334512269277281
+          ],
+          "f1": [
+            0.4706961217528232,
+            0.5455459555286164
+          ],
+          "mcc": [
+            0.37100871523643386,
+            0.4545212491605084
+          ],
+          "auc": [
+            0.7880080940292608,
+            0.831997601201881
+          ],
+          "auprc": [
+            0.5199024827014819,
+            0.5974731217060589
+          ]
+        },
+        "operating_points": {
+          "at_f1_optimal": {
+            "accuracy": 0.827,
+            "sensitivity": 0.2918,
+            "specificity": 0.9668,
+            "precision": 0.6969,
+            "negative_predictive_value": 0.8393,
+            "f1": 0.4114,
+            "mcc": 0.3724,
+            "kappa": 0.3294,
+            "balanced_accuracy": 0.6293,
+            "brier": 0.152,
+            "auc": 0.8114,
+            "auprc": 0.5585,
+            "threshold": 0.2558,
+            "tp": 354.0,
+            "tn": 4487.0,
+            "fp": 154.0,
+            "fn": 859.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          },
+          "at_youden_optimal": {
+            "accuracy": 0.7708,
+            "sensitivity": 0.676,
+            "specificity": 0.7955,
+            "precision": 0.4635,
+            "negative_predictive_value": 0.9038,
+            "f1": 0.55,
+            "mcc": 0.4162,
+            "kappa": 0.4033,
+            "balanced_accuracy": 0.7358,
+            "brier": 0.152,
+            "auc": 0.8114,
+            "auprc": 0.5585,
+            "threshold": 0.0537,
+            "tp": 820.0,
+            "tn": 3692.0,
+            "fp": 949.0,
+            "fn": 393.0,
+            "n_measured": 5854.0,
+            "n_rnas": 162.0,
+            "prevalence": 0.2072
+          }
+        },
+        "comparable_to_flexnet": true,
+        "delong_vs_flexnet": {
+          "auc1": 0.8037,
+          "auc2": 0.811439,
+          "diff": -0.007739,
+          "var": 3.8e-05,
+          "z": -1.25788,
+          "p": 0.208435
+        },
+        "mcnemar_vs_flexnet": {
+          "b": 323,
+          "c": 264,
+          "p": 0.016596,
+          "baseline_threshold": 0.1547,
+          "flexnet_threshold": 0.2751,
+          "disagreement_pct": 10.03
+        }
+      },
+      "threshold": 0.1547,
+      "threshold_f1": 0.2558,
+      "threshold_youden": 0.0537,
+      "threshold_source": "validation-optimal (median of F1 and Youden optima), applied unchanged"
+    }
+  }
+}

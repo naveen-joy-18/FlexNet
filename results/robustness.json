@@ -1,0 +1,136 @@
+{
+  "A": {
+    "nn_vs_gbm/own_test": {
+      "nn_auc": 0.9111,
+      "gbm_auc": 0.9088,
+      "delta_auc": 0.0023,
+      "delong_z": 0.546,
+      "delong_p": 0.5848556413805397,
+      "delong_diff": 0.0023,
+      "mcnemar_b": 232,
+      "mcnemar_c": 165,
+      "mcnemar_p": 0.0009019547490311691,
+      "nn_threshold": 0.3436,
+      "gbm_threshold": 0.21849999999999997
+    },
+    "nn_vs_gbm/other_test": {
+      "nn_auc": 0.7895,
+      "gbm_auc": 0.7874,
+      "delta_auc": 0.002,
+      "delong_z": 0.439,
+      "delong_p": 0.6610139512073676,
+      "delong_diff": 0.002,
+      "mcnemar_b": 186,
+      "mcnemar_c": 157,
+      "mcnemar_p": 0.1304499190303971,
+      "nn_threshold": 0.3436,
+      "gbm_threshold": 0.21849999999999997
+    },
+    "seed_stability": {
+      "pairwise_score_spearman": [
+        0.9107,
+        0.9498,
+        0.9195
+      ],
+      "per_seed_auc": [
+        0.9092,
+        0.9123,
+        0.9111
+      ],
+      "reported_seed": 2,
+      "auc_range": [
+        0.9092,
+        0.9123
+      ]
+    },
+    "per_family_auc": {
+      "n_families": 160,
+      "median": 0.9424,
+      "iqr": [
+        0.8605,
+        0.9762
+      ],
+      "frac_above_0_8": 0.8125,
+      "frac_below_0_6": 0.0312
+    },
+    "per_length_auc": {
+      "50-65": 0.9202,
+      "65-80": 0.951,
+      "80-120": 0.9475,
+      "120-+": 0.8505
+    },
+    "ensemble_block_permuted": {
+      "auc_before": 0.9111,
+      "auc_after": 0.8821,
+      "delta_auc": -0.0291,
+      "score_spearman_before_after": 0.9158
+    }
+  },
+  "B": {
+    "nn_vs_gbm/own_test": {
+      "nn_auc": 0.8714,
+      "gbm_auc": 0.8507,
+      "delta_auc": 0.0207,
+      "delong_z": 2.501,
+      "delong_p": 0.012372270674657626,
+      "delong_diff": 0.0207,
+      "mcnemar_b": 269,
+      "mcnemar_c": 254,
+      "mcnemar_p": 0.5404610142215209,
+      "nn_threshold": 0.27505,
+      "gbm_threshold": 0.15475
+    },
+    "nn_vs_gbm/other_test": {
+      "nn_auc": 0.8037,
+      "gbm_auc": 0.8114,
+      "delta_auc": -0.0077,
+      "delong_z": -1.258,
+      "delong_p": 0.2084351470281942,
+      "delong_diff": -0.0077,
+      "mcnemar_b": 264,
+      "mcnemar_c": 323,
+      "mcnemar_p": 0.016596391558320264,
+      "nn_threshold": 0.27505,
+      "gbm_threshold": 0.15475
+    },
+    "seed_stability": {
+      "pairwise_score_spearman": [
+        0.9438,
+        0.9088,
+        0.9134
+      ],
+      "per_seed_auc": [
+        0.8714,
+        0.8747,
+        0.8681
+      ],
+      "reported_seed": 0,
+      "auc_range": [
+        0.8681,
+        0.8747
+      ]
+    },
+    "per_family_auc": {
+      "n_families": 68,
+      "median": 0.9121,
+      "iqr": [
+        0.8502,
+        0.9639
+      ],
+      "frac_above_0_8": 0.8529,
+      "frac_below_0_6": 0.0588
+    },
+    "per_length_auc": {
+      "50-65": 0.9477,
+      "65-80": 0.9188,
+      "80-120": 0.9022,
+      "120-+": 0.5823
+    },
+    "ensemble_block_permuted": {
+      "auc_before": 0.8714,
+      "auc_after": 0.814,
+      "delta_auc": -0.0574,
+      "score_spearman_before_after": 0.7117
+    }
+  }
+}

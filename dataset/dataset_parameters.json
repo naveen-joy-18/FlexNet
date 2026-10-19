@@ -1,0 +1,52 @@
+{
+  "label_thresholds": {
+    "DMS-MaPseq": 0.5,
+    "SHAPE-MaP": 1.0
+  },
+  "flexible_region_caller": {
+    "A": {
+      "threshold": 0.3436,
+      "min_region_len": 2,
+      "selected_on": "DMS-MaPseq validation"
+    },
+    "B": {
+      "threshold": 0.27505,
+      "min_region_len": 2,
+      "selected_on": "SHAPE-MaP validation"
+    }
+  },
+  "feature_scaler": "fit on the DMS training split only; mu/sd in feature_scaler.tsv (applied Z-standardisation)",
+  "families_shared_between_chemistries": {
+    "train": 91,
+    "val": 15,
+    "test": 22
+  },
+  "dataset_summary": {
+    "dms": {
+      "dataset": "DMS-MaPseq",
+      "n_rnas": 1061,
+      "n_families": 1015,
+      "n_positions": 84530,
+      "n_valid": 38984,
+      "n_positive": 8267,
+      "pos_rate": 0.2121,
+      "n_train": 743,
+      "n_val": 156,
+      "n_test": 162,
+      "median_length": 77.0
+    },
+    "shape": {
+      "dataset": "SHAPE-MaP",
+      "n_rnas": 462,
+      "n_families": 417,
+      "n_positions": 39955,
+      "n_valid": 39955,
+      "n_positive": 3868,
+      "pos_rate": 0.0968,
+      "n_train": 324,
+      "n_val": 70,
+      "n_test": 68,
+      "median_length": 85.0
+    }
+  }
+}

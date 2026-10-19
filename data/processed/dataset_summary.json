@@ -1,0 +1,28 @@
+{
+  "dms": {
+    "dataset": "DMS-MaPseq",
+    "n_rnas": 1061,
+    "n_families": 1015,
+    "n_positions": 84530,
+    "n_valid": 38984,
+    "n_positive": 8267,
+    "pos_rate": 0.2121,
+    "n_train": 743,
+    "n_val": 156,
+    "n_test": 162,
+    "median_length": 77.0
+  },
+  "shape": {
+    "dataset": "SHAPE-MaP",
+    "n_rnas": 462,
+    "n_families": 417,
+    "n_positions": 39955,
+    "n_valid": 39955,
+    "n_positive": 3868,
+    "pos_rate": 0.0968,
+    "n_train": 324,
+    "n_val": 70,
+    "n_test": 68,
+    "median_length": 85.0
+  }
+}

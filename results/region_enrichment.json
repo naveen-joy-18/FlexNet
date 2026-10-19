@@ -1,0 +1,684 @@
+{
+  "enrichment": {
+    "A/own_test": [
+      {
+        "comparison": "in a stem (MFE structure)",
+        "scope": "structure",
+        "n_in": 9020,
+        "frac_positive_in_group": 0.0181,
+        "frac_positive_outside": 0.4315,
+        "odds_ratio": 0.024,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 9667,
+        "frac_positive_in_group": 0.0385,
+        "frac_positive_outside": 0.4556,
+        "odds_ratio": 0.048,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 9448,
+        "frac_positive_in_group": 0.0373,
+        "frac_positive_outside": 0.4301,
+        "odds_ratio": 0.051,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (MFE)",
+        "scope": "structure",
+        "n_in": 3555,
+        "frac_positive_in_group": 0.4315,
+        "frac_positive_outside": 0.0181,
+        "odds_ratio": 41.244,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (centroid)",
+        "scope": "structure",
+        "n_in": 3873,
+        "frac_positive_in_group": 0.4069,
+        "frac_positive_outside": 0.0139,
+        "odds_ratio": 48.657,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 1322,
+        "frac_positive_in_group": 0.4539,
+        "frac_positive_outside": 0.0975,
+        "odds_ratio": 7.694,
+        "p_value": 3.802339166872743e-206,
+        "q_value": 8.872124722703067e-206,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 1093,
+        "frac_positive_in_group": 0.4831,
+        "frac_positive_outside": 0.1018,
+        "odds_ratio": 8.244,
+        "p_value": 1.2869007530252385e-193,
+        "q_value": 2.573801506050477e-193,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 1355,
+        "frac_positive_in_group": 0.414,
+        "frac_positive_outside": 0.1012,
+        "odds_ratio": 6.272,
+        "p_value": 1.1555390916035316e-166,
+        "q_value": 2.0221934103061803e-166,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 1434,
+        "frac_positive_in_group": 0.3849,
+        "frac_positive_outside": 0.1028,
+        "odds_ratio": 5.464,
+        "p_value": 5.790164330521578e-146,
+        "q_value": 9.006922291922454e-146,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 458,
+        "frac_positive_in_group": 0.5131,
+        "frac_positive_outside": 0.1207,
+        "odds_ratio": 7.68,
+        "p_value": 1.8407006227915465e-87,
+        "q_value": 2.576980871908165e-87,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 369,
+        "frac_positive_in_group": 0.5203,
+        "frac_positive_outside": 0.1233,
+        "odds_ratio": 7.713,
+        "p_value": 2.1815605505804205e-72,
+        "q_value": 2.776531609829626e-72,
+        "significant": true
+      },
+      {
+        "comparison": "conservation (called vs not)",
+        "scope": "conservation",
+        "mean_called": 0.5766,
+        "mean_not_called": 0.5598,
+        "median_called": 0.5,
+        "median_not_called": 0.5,
+        "p_value": 0.0004988275377816618,
+        "q_value": 0.0005819654607452722,
+        "significant": true
+      },
+      {
+        "comparison": "in a multiloop loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 2,
+        "frac_positive_in_group": 0.5,
+        "frac_positive_outside": 0.1349,
+        "odds_ratio": 6.413,
+        "p_value": 0.25169829756944256,
+        "q_value": 0.25169829756944256,
+        "significant": false
+      },
+      {
+        "comparison": "in a multiloop loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 2,
+        "frac_positive_in_group": 0.5,
+        "frac_positive_outside": 0.1349,
+        "odds_ratio": 6.413,
+        "p_value": 0.25169829756944256,
+        "q_value": 0.25169829756944256,
+        "significant": false
+      }
+    ],
+    "A/other_test": [
+      {
+        "comparison": "in a stem (MFE structure)",
+        "scope": "structure",
+        "n_in": 4336,
+        "frac_positive_in_group": 0.027,
+        "frac_positive_outside": 0.8172,
+        "odds_ratio": 0.006,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 526,
+        "frac_positive_in_group": 0.9848,
+        "frac_positive_outside": 0.1685,
+        "odds_ratio": 319.495,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 609,
+        "frac_positive_in_group": 0.9573,
+        "frac_positive_outside": 0.159,
+        "odds_ratio": 118.647,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 4559,
+        "frac_positive_in_group": 0.0553,
+        "frac_positive_outside": 0.8513,
+        "odds_ratio": 0.01,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 4488,
+        "frac_positive_in_group": 0.0495,
+        "frac_positive_outside": 0.8304,
+        "odds_ratio": 0.011,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (MFE)",
+        "scope": "structure",
+        "n_in": 1608,
+        "frac_positive_in_group": 0.8172,
+        "frac_positive_outside": 0.027,
+        "odds_ratio": 161.165,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (centroid)",
+        "scope": "structure",
+        "n_in": 1764,
+        "frac_positive_in_group": 0.7766,
+        "frac_positive_outside": 0.0146,
+        "odds_ratio": 234.794,
+        "p_value": 0.0,
+        "q_value": 0.0,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 678,
+        "frac_positive_in_group": 0.7375,
+        "frac_positive_outside": 0.1768,
+        "odds_ratio": 13.079,
+        "p_value": 1.745945690084307e-190,
+        "q_value": 2.618918535126461e-190,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 710,
+        "frac_positive_in_group": 0.707,
+        "frac_positive_outside": 0.1775,
+        "odds_ratio": 11.184,
+        "p_value": 1.411052846541907e-177,
+        "q_value": 1.8814037953892095e-177,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 181,
+        "frac_positive_in_group": 0.8895,
+        "frac_positive_outside": 0.2204,
+        "odds_ratio": 28.479,
+        "p_value": 2.943830520283355e-79,
+        "q_value": 3.532596624340026e-79,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 137,
+        "frac_positive_in_group": 0.9051,
+        "frac_positive_outside": 0.2251,
+        "odds_ratio": 32.841,
+        "p_value": 6.225722489470352e-63,
+        "q_value": 6.791697261240385e-63,
+        "significant": true
+      },
+      {
+        "comparison": "conservation (called vs not)",
+        "scope": "conservation",
+        "mean_called": 0.9429,
+        "mean_not_called": 0.9514,
+        "median_called": 1.0,
+        "median_not_called": 1.0,
+        "p_value": 0.046132238304230584,
+        "q_value": 0.046132238304230584,
+        "significant": true
+      }
+    ],
+    "B/own_test": [
+      {
+        "comparison": "in a hairpin loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 609,
+        "frac_positive_in_group": 0.7833,
+        "frac_positive_outside": 0.1245,
+        "odds_ratio": 25.421,
+        "p_value": 1.1125550397663014e-255,
+        "q_value": 1.3350660477195618e-254,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 526,
+        "frac_positive_in_group": 0.8251,
+        "frac_positive_outside": 0.1305,
+        "odds_ratio": 31.434,
+        "p_value": 3.712404297979362e-247,
+        "q_value": 2.2274425787876172e-246,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (centroid)",
+        "scope": "structure",
+        "n_in": 1764,
+        "frac_positive_in_group": 0.4484,
+        "frac_positive_outside": 0.0837,
+        "odds_ratio": 8.896,
+        "p_value": 3.014303117101451e-215,
+        "q_value": 1.2057212468405803e-214,
+        "significant": true
+      },
+      {
+        "comparison": "in a stem (MFE structure)",
+        "scope": "structure",
+        "n_in": 4336,
+        "frac_positive_in_group": 0.0952,
+        "frac_positive_outside": 0.4527,
+        "odds_ratio": 0.127,
+        "p_value": 1.985399240380056e-191,
+        "q_value": 4.764958176912134e-191,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (MFE)",
+        "scope": "structure",
+        "n_in": 1608,
+        "frac_positive_in_group": 0.4527,
+        "frac_positive_outside": 0.0952,
+        "odds_ratio": 7.858,
+        "p_value": 1.985399240380056e-191,
+        "q_value": 4.764958176912134e-191,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 4488,
+        "frac_positive_in_group": 0.1067,
+        "frac_positive_outside": 0.4547,
+        "odds_ratio": 0.143,
+        "p_value": 5.722906327179772e-167,
+        "q_value": 1.1445812654359544e-166,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 4559,
+        "frac_positive_in_group": 0.1149,
+        "frac_positive_outside": 0.4455,
+        "odds_ratio": 0.162,
+        "p_value": 5.479327650349802e-145,
+        "q_value": 9.393133114885375e-145,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 181,
+        "frac_positive_in_group": 0.3536,
+        "frac_positive_outside": 0.1869,
+        "odds_ratio": 2.38,
+        "p_value": 2.2786395794811297e-07,
+        "q_value": 3.4179593692216946e-07,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 137,
+        "frac_positive_in_group": 0.365,
+        "frac_positive_outside": 0.1879,
+        "odds_ratio": 2.484,
+        "p_value": 1.5172407341939195e-06,
+        "q_value": 2.0229876455918926e-06,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 678,
+        "frac_positive_in_group": 0.1755,
+        "frac_positive_outside": 0.1941,
+        "odds_ratio": 0.884,
+        "p_value": 0.2549189232229738,
+        "q_value": 0.30590270786756857,
+        "significant": false
+      },
+      {
+        "comparison": "conservation (called vs not)",
+        "scope": "conservation",
+        "mean_called": 0.9458,
+        "mean_not_called": 0.9502,
+        "median_called": 1.0,
+        "median_not_called": 1.0,
+        "p_value": 0.28102674183958,
+        "q_value": 0.30657462746136,
+        "significant": false
+      },
+      {
+        "comparison": "in a internal loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 710,
+        "frac_positive_in_group": 0.1901,
+        "frac_positive_outside": 0.1922,
+        "odds_ratio": 0.987,
+        "p_value": 0.9191915824998628,
+        "q_value": 0.9191915824998628,
+        "significant": false
+      }
+    ],
+    "B/other_test": [
+      {
+        "comparison": "unpaired (centroid)",
+        "scope": "structure",
+        "n_in": 3873,
+        "frac_positive_in_group": 0.2148,
+        "frac_positive_outside": 0.0276,
+        "odds_ratio": 9.646,
+        "p_value": 1.8564573088100307e-241,
+        "q_value": 2.5990402323340433e-240,
+        "significant": true
+      },
+      {
+        "comparison": "in a stem (MFE structure)",
+        "scope": "structure",
+        "n_in": 9020,
+        "frac_positive_in_group": 0.0308,
+        "frac_positive_outside": 0.2233,
+        "odds_ratio": 0.111,
+        "p_value": 1.1297983884959591e-234,
+        "q_value": 5.27239247964781e-234,
+        "significant": true
+      },
+      {
+        "comparison": "unpaired (MFE)",
+        "scope": "structure",
+        "n_in": 3555,
+        "frac_positive_in_group": 0.2233,
+        "frac_positive_outside": 0.0308,
+        "odds_ratio": 9.043,
+        "p_value": 1.1297983884959591e-234,
+        "q_value": 5.27239247964781e-234,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 9667,
+        "frac_positive_in_group": 0.0438,
+        "frac_positive_outside": 0.2232,
+        "odds_ratio": 0.159,
+        "p_value": 1.0859574923747686e-168,
+        "q_value": 3.8008512233116903e-168,
+        "significant": true
+      },
+      {
+        "comparison": "in a external loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 9448,
+        "frac_positive_in_group": 0.0423,
+        "frac_positive_outside": 0.2149,
+        "odds_ratio": 0.162,
+        "p_value": 1.2073911254731858e-167,
+        "q_value": 3.38069515132492e-167,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 1322,
+        "frac_positive_in_group": 0.3154,
+        "frac_positive_outside": 0.0582,
+        "odds_ratio": 7.455,
+        "p_value": 9.282460645498638e-151,
+        "q_value": 2.1659074839496823e-150,
+        "significant": true
+      },
+      {
+        "comparison": "in a hairpin loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 1093,
+        "frac_positive_in_group": 0.3431,
+        "frac_positive_outside": 0.0607,
+        "odds_ratio": 8.082,
+        "p_value": 6.18895417980633e-147,
+        "q_value": 1.237790835961266e-146,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 458,
+        "frac_positive_in_group": 0.2336,
+        "frac_positive_outside": 0.0796,
+        "odds_ratio": 3.523,
+        "p_value": 7.16114008865621e-23,
+        "q_value": 1.253199515514837e-22,
+        "significant": true
+      },
+      {
+        "comparison": "in a bulge loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 369,
+        "frac_positive_in_group": 0.2304,
+        "frac_positive_outside": 0.0809,
+        "odds_ratio": 3.402,
+        "p_value": 6.32561207072095e-18,
+        "q_value": 9.839840998899255e-18,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 1355,
+        "frac_positive_in_group": 0.1232,
+        "frac_positive_outside": 0.0807,
+        "odds_ratio": 1.602,
+        "p_value": 4.1098219693507415e-07,
+        "q_value": 5.753750757091038e-07,
+        "significant": true
+      },
+      {
+        "comparison": "in a internal loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 1434,
+        "frac_positive_in_group": 0.1185,
+        "frac_positive_outside": 0.081,
+        "odds_ratio": 1.527,
+        "p_value": 4.488344393610194e-06,
+        "q_value": 5.712438319140248e-06,
+        "significant": true
+      },
+      {
+        "comparison": "conservation (called vs not)",
+        "scope": "conservation",
+        "mean_called": 0.5695,
+        "mean_not_called": 0.5636,
+        "median_called": 0.5,
+        "median_not_called": 0.5,
+        "p_value": 0.2960813836541071,
+        "q_value": 0.3454282809297916,
+        "significant": false
+      },
+      {
+        "comparison": "in a multiloop loop (MFE)",
+        "scope": "loop_type_mfe",
+        "n_in": 2,
+        "frac_positive_in_group": 0.0,
+        "frac_positive_outside": 0.0853,
+        "odds_ratio": 0.0,
+        "p_value": 1.0,
+        "q_value": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "in a multiloop loop (centroid)",
+        "scope": "loop_type_centroid",
+        "n_in": 2,
+        "frac_positive_in_group": 0.0,
+        "frac_positive_outside": 0.0853,
+        "odds_ratio": 0.0,
+        "p_value": 1.0,
+        "q_value": 1.0,
+        "significant": false
+      }
+    ]
+  },
+  "region_shapes": {
+    "A/own_test": {
+      "n_regions": 368,
+      "n_hairpins_with_a_region": 162,
+      "median_length": 2.0,
+      "mean_length": 2.61,
+      "frac_len_2": 0.6413,
+      "frac_len_ge4": 0.1304,
+      "frac_len_ge6": 0.0299,
+      "median_rel_start": 0.4779,
+      "loop_context": {
+        "hairpin": 150,
+        "internal": 115,
+        "external": 75,
+        "bulge": 28
+      },
+      "stem_context": {
+        "external": 330,
+        "stem": 38
+      }
+    },
+    "A/other_test": {
+      "n_regions": 244,
+      "n_hairpins_with_a_region": 68,
+      "median_length": 3.0,
+      "mean_length": 4.61,
+      "frac_len_2": 0.4139,
+      "frac_len_ge4": 0.4426,
+      "frac_len_ge6": 0.2623,
+      "median_rel_start": 0.4608,
+      "loop_context": {
+        "internal": 116,
+        "hairpin": 72,
+        "external": 38,
+        "bulge": 18
+      },
+      "stem_context": {
+        "external": 233,
+        "stem": 11
+      }
+    },
+    "B/own_test": {
+      "n_regions": 207,
+      "n_hairpins_with_a_region": 68,
+      "median_length": 4.0,
+      "mean_length": 4.63,
+      "frac_len_2": 0.2802,
+      "frac_len_ge4": 0.5507,
+      "frac_len_ge6": 0.2754,
+      "median_rel_start": 0.4627,
+      "loop_context": {
+        "external": 89,
+        "hairpin": 73,
+        "internal": 32,
+        "bulge": 13
+      },
+      "stem_context": {
+        "external": 133,
+        "stem": 74
+      }
+    },
+    "B/other_test": {
+      "n_regions": 233,
+      "n_hairpins_with_a_region": 161,
+      "median_length": 2.0,
+      "mean_length": 2.47,
+      "frac_len_2": 0.6609,
+      "frac_len_ge4": 0.0858,
+      "frac_len_ge6": 0.0172,
+      "median_rel_start": 0.4875,
+      "loop_context": {
+        "hairpin": 99,
+        "external": 79,
+        "internal": 40,
+        "bulge": 15
+      },
+      "stem_context": {
+        "external": 183,
+        "stem": 50
+      }
+    }
+  },
+  "calibration": {
+    "A": {
+      "threshold": 0.3436,
+      "min_region_len": 2,
+      "own_dataset": "DMS-MaPseq",
+      "other_dataset": "SHAPE-MaP",
+      "n_train": 743,
+      "pos_weight": 3.7156163057941214
+    },
+    "B": {
+      "threshold": 0.27505,
+      "min_region_len": 2,
+      "own_dataset": "SHAPE-MaP",
+      "other_dataset": "DMS-MaPseq",
+      "n_train": 324,
+      "pos_weight": 9.329627714581179
+    }
+  }
+}

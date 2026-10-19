@@ -1,0 +1,67 @@
+{
+  "decoupled aux .3/.5": {
+    "auc": 0.8933359064209441,
+    "rho": 0.7300497178343479,
+    "lr": 0.002,
+    "wd": 0.0001,
+    "epochs": 30,
+    "weights": {
+      "w_point": 1.0,
+      "w_reg": 0.3,
+      "w_region": 0.5,
+      "w_rank": 0.0
+    }
+  },
+  "point-only (reference)": {
+    "auc": 0.8933275882497883,
+    "rho": 0.7281137800506524,
+    "lr": 0.002,
+    "wd": 0.0001,
+    "epochs": 30,
+    "weights": {
+      "w_point": 1.0,
+      "w_reg": 0.0,
+      "w_region": 0.0,
+      "w_rank": 0.0
+    }
+  },
+  "decoupled heavy .5/1/.3": {
+    "auc": 0.8932673277209707,
+    "rho": 0.7288870059916481,
+    "lr": 0.002,
+    "wd": 0.0001,
+    "epochs": 30,
+    "weights": {
+      "w_point": 1.0,
+      "w_reg": 0.5,
+      "w_region": 1.0,
+      "w_rank": 0.3
+    }
+  },
+  "decoupled aux lr=3e-3": {
+    "auc": 0.894609603273145,
+    "rho": 0.750588945937783,
+    "lr": 0.003,
+    "wd": 0.0001,
+    "epochs": 30,
+    "weights": {
+      "w_point": 1.0,
+      "w_reg": 0.3,
+      "w_region": 0.5,
+      "w_rank": 0.0
+    }
+  },
+  "decoupled aux lr=1e-3 ep=40": {
+    "auc": 0.8932438519934867,
+    "rho": 0.729888969839749,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "epochs": 40,
+    "weights": {
+      "w_point": 1.0,
+      "w_reg": 0.3,
+      "w_region": 0.5,
+      "w_rank": 0.0
+    }
+  }
+}

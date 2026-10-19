@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Run logs and temporary outputs
+*.log
+*.err
+
+# Regenerable network fetch cache (rebuilt by s02b_shape_constructs.py)
+scripts/data/raw/genome_cache/
+
+# Submission package rebuilt by s13_submission.py
+submission/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+~$*

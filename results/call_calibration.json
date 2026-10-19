@@ -1,0 +1,18 @@
+{
+  "A": {
+    "threshold": 0.3436,
+    "min_region_len": 2,
+    "own_dataset": "DMS-MaPseq",
+    "other_dataset": "SHAPE-MaP",
+    "n_train": 743,
+    "pos_weight": 3.7156163057941214
+  },
+  "B": {
+    "threshold": 0.27505,
+    "min_region_len": 2,
+    "own_dataset": "SHAPE-MaP",
+    "other_dataset": "DMS-MaPseq",
+    "n_train": 324,
+    "pos_weight": 9.329627714581179
+  }
+}
